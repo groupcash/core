@@ -13,7 +13,7 @@ While currencies used to be commodity-backed (e.g. gold standard), this is not a
 
 Fluctuating currencies are prone to be hoarded by investors hoping to make profit. A goal of the proposed currency should be to incentivise circulation and decrease fluctuation. This is compatible with the goal of clear value proposition.
 
-## High velocity
+### High velocity
 
 The currency should provide an incentive to keep circulation going. Thus preventing deflation by hoarding and further stabilizing its value.
 
