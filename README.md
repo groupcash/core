@@ -1,4 +1,4 @@
-# Groupcash: A Complementary Commodity-Backed Cryptographic Community Currency
+# Groupcash: A Commodity-Backed Cryptographic Community Currency
 
 This text describes a virtual complementary currency, relying on contracts concluded with cryptographic signatures and backed by delivery promises of value-creating community members. The compatibility and plausibility of these promises is verified by a regulatory mechanism. The proposal is inspired by cryptographic and local currencies.
 
@@ -37,16 +37,16 @@ While the main proposition of crypto-currencies like Bitcoin is that no trust is
 
 The proposed currency is representative, i.e. directly backed by useful commodities. It's units are delivery promise by a value-creating entity. What counts as "useful" must be defined by the community but ideally it would be something with intrinsic value like food, energy or workforce as opposed to merely "rare" substances like gold. Since each unit represents a promise directly, users can decide themselves which commodities they find useful and which backers trust-worthy.
 
-## Regulation
+### Regulation
 
 To make sure that the promises comply with the above mentioned definition and also to limit the risk that the backer will not be able to fulfil their promises, a regulatory mechanism is required. This mechanism must make sure that a backer does not sell more promises than they are likely to be able to deliver within a given time frame. For example, a rule could be that a maximum of 10% of the yearly output can be promised. The regulation could either be performed by an organisation or by the community itself.
 
-## Cryptographic signatures
+### Cryptographic signatures
 
 To enable decentralization, public/private key pairs are used to sign contracts like promises and transactions. Public keys serve as pseudonyms and addresses of the participants.
 While spending units still relies on the validation of the backer, they cannot change your "balance" without your signature.
 
-## Fixed prices
+### Fixed prices
 
 While units can be sold and bought on the open market, backers should guarantee a fixed price. For example $1 per unit. They should also guarantee to buy-back their promises although they can keep a margin.
 
