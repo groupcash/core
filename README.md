@@ -13,6 +13,10 @@ While currencies used to be commodity-backed (e.g. gold standard), this is not a
 
 Fluctuating currencies are prone to be hoarded by investors hoping to make profit. A goal of the proposed currency should be to incentivise circulation and decrease fluctuation. This is compatible with the goal of clear value proposition.
 
+## High velocity
+
+The currency should provide an incentive to keep circulation going. Thus preventing deflation by hoarding and further stabilizing its value.
+
 ### Decentralization
 
 The creation of traditional, political currencies lies in the hand of a single government body. Double-spending is avoided through counterfeit-proof tokens (cash) and accounts managed by a few banks. The proposed currency should use a community to collectively create spendable units and prohibit double-spending. The participants should also be able to transfer units independently if wished.
