@@ -125,7 +125,6 @@ The following is a informal description of the communication between the partici
 `A` sends `Ci_ABC` to `K_C`
 
 #### Following Transfer `C` -> `D`
-
 `C` sends `Ci_ABC_D = S_C(Ci_ABC, K_D)` to `K_A`  
 `A` sends `Ci_ABCD = S_A(Ci_A, K_D, H(Ci_ABC))` to `K_D`  
 
@@ -133,11 +132,18 @@ The following is a informal description of the communication between the partici
 
 `D` sends `Ci_ABCD_A = S_D(Ci_ABCD, K_A)` to `K_A`  
 
+### Splitting and combining
+
+To enable micro-payments, fractions of currency units can be transferred. There should be an upper limit of supported decimal places to avoid rounding errors.
+
+If `B` wants to transfer `0.5` of `Ci_A` to `C`, they would send `Ci_AB_C' = S_B({Ci_AB, 0.5}, K_C)`. `C` can then send `Ci_AB_C'D' = S_C({Ci_AB_C', 0.5}, K_D)` to `D` which would be interpreted as `0.5 * P_A` and not `0.25 * P_A` and thus be validated to `Ci_AD = S_A({Ci_AB, 0.5}, K_D)`. In order to validate these transferences, `A` needs to keep track of the fraction of `Ci_A` that each member holds.
+
+Units can also be jointly transferred. If `B` wants to send `C1_AB` and `C2_AB` to `C`, it could be expressed as `C12_AB_C = S_B([C1_AB, C1_AB], K_C)`, which would be validated to `C1_AC = S_A(C1_A, K_C)` and `C2_AC = S_A(C2_A, K_C)`. While splitting is necessary, combining can be considered optimization and is thus optional.
 
 
 ## Optimizations
 
-It should be possible to transfer a fraction of a unit and also to minimize the amount of data required to transfer a large amount of units. How this can be implemented still has to be determined. Another way to decrease the data size is to reference the promise instead of transferring it with every transaction. The former might still be desirable in case of low or no connectivity.
+The size of a vlidated coin is estimated to be around 1KB. It needs to be determined how the amount of data can be minimized when transferring large numbers of coins. Besides combining coins as described above, another way could be to reference a URL instead of inlining the promise description.
 
 
 
