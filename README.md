@@ -78,72 +78,72 @@ Consumers benefit from a faster, cheaper way of payment as well. Because of the 
 
 ## Protocol
 
-The following is a informal description of the communication between the participants in different use cases.
+The following is a semi-formal description of the communication between the participants of the currency.
 
-### Participants
 
-`A` -- value producing entity  
-`B` -- consumer  
-`C` -- consumer  
-`D` -- consumer  
-`R` -- regulatory entity
+### Definitions
 
-### Nomenclature
+#### Issued Coin
 
-`K_I` -- Public key of `I`, pseudonym and address of `I`  
-`PK_I` -- Private key of `I`, must be kept secret  
-`H(X)` -- Cryptographic hash of `X`  
-`S_I(X) = (X, H(X)*PK_I)` -- `X` signed by `I`  
-`Ci_A` -- a unit ("coin") with the serial number `i` issued by `A`  
-`Ci_AB` -- `Ci_A` transfered to `K_B`, validated by `K_A`  
-`Ci_AB_C` -- `Ci_AB` transfered to `K_C` but not yet validated
+An issued coin worth one currency unit can be denoted as  
+`coin(A, i) = sign(R, (P_A, i, K_A))`  where  
+`sign(Y, X) = (X, hash(X) ^ PK_Y)` is `X` signed by `Y`  
+`PK_R` is the private key of `R`  
+`R` is the regulatory entity  
+`hash(X)` is a cryptographic hash of `X`  
+`P_A` is a delivery promise by `A` worth one unit  
+`A` is a backing entity  
+`i` is the serial number of the coin  
+`K_A` is the public key of `A`  
+
+#### Transferred Coin
+
+A fraction `F` of coin `COIN` is transferred from its current owner to a target `B` with  
+`trans(COIN, B, F) = sign(A, (COIN, K_B, F))` where  
+`F = ]0:1]`
+
+#### Validated Coin
+
+Transferred coins are recursively validated with  
+`valid(trans(COIN, C, G)) = sign(A, (P, K_C, G * fract(P), hash(P)))` with  
+`P = prev(valid(COIN))` and the termination point  
+`valid(valid(COIN, X, F)) = valid(COIN, X, F)` and where  
+`prev(trans(COIN, A, F)) = valid(COIN)` and  
+`fract(trans(COIN, A, F)) = F`
+
 
 ### Use cases
 
 #### Genesis
 
-`R` and `A` decide on `P_A` -- the promised delivery by `K_A` per unit  
-`R` determines `X_A` -- number of currency units plausibly backed by `A`  
-`R` publishes `S_R(A, K_A, P_A, X_A)`  
-`R` sends `Ci_A = S_R(P_A, i)` to `K_A` with `i=[1;X_A]`  
+`R` and `A` decide on `P_A` -- the promised delivery by `A` per unit   
+`R` determines `X_A` -- the number of currency units plausibly backed by `A`  
+`R` publishes `sign(R, (A, K_A, P_A, X_A))`  
+`R` sends `CiA = coin(A, i)` to `K_A` with `i=[1;X_A]`  
 
-#### Buying `A` -> `B`
+#### Buying
 
 `B` gets list of all backers from `R`, including `K_A`  
 `B` requests `X` units from `K_A`  
-`A` sends `Ci_AB = S_A(Ci_A, K_B)` to `K_B` with `i=[1;X]`  
+`A` sends `CiAB = trans(CiA, K_B, F)` to `K_B` with `i=[n;n+X]`  
 
-#### First Transfer `B` -> `C`
+#### Transfer
 
-`B` sends `Ci_AB_C = S_B(Ci_AB, K_C)` to `K_A`  
-`A` sends `Ci_ABC = S_A(Ci_A, K_C, H(Ci_AB))` to `K_C`  
+`B` sends `CiAB_C = trans(CiAB, K_C, F)` to `K_A` for validation  
+`A` sends `CiABC = valid(AiAB_C)` to `K_B`  
+`B` sends `CiABC` to `K_C`  
 
-#### Alternative transfer `B` -> `C`
+#### Offline transfer
 
-`B` sends `Ci_AB_C` to `K_C`  
-`C` sends `Ci_AB_C` to `K_A`  
-`A` sends `Ci_ABC` to `K_C`
+`B` sends `CiAB_C` to `K_C`  
+`C` sends `CiAB_C` to `K_A` for validation  
+`A` sends `CiABC` to `K_C`
 
-#### Following Transfer `C` -> `D`
-`C` sends `Ci_ABC_D = S_C(Ci_ABC, K_D)` to `K_A`  
-`A` sends `Ci_ABCD = S_A(Ci_A, K_D, H(Ci_ABC))` to `K_D`  
-
-#### Selling `D` -> `A`
-
-`D` sends `Ci_ABCD_A = S_D(Ci_ABCD, K_A)` to `K_A`  
-
-### Splitting and combining
-
-To enable micro-payments, fractions of currency units can be transferred. There should be an upper limit of supported decimal places to avoid rounding errors.
-
-If `B` wants to transfer `0.5` of `Ci_A` to `C`, they would send `Ci_AB_C' = S_B({Ci_AB, 0.5}, K_C)`. `C` can then send `Ci_AB_C'D' = S_C({Ci_AB_C', 0.5}, K_D)` to `D` which would be interpreted as `0.5 * P_A` and not `0.25 * P_A` and thus be validated to `Ci_AD = S_A({Ci_AB, 0.5}, K_D)`. In order to validate these transferences, `A` needs to keep track of the fraction of `Ci_A` that each member holds.
-
-Units can also be jointly transferred. If `B` wants to send `C1_AB` and `C2_AB` to `C`, it could be expressed as `C12_AB_C = S_B([C1_AB, C1_AB], K_C)`, which would be validated to `C1_AC = S_A(C1_A, K_C)` and `C2_AC = S_A(C2_A, K_C)`. While splitting is necessary, combining can be considered optimization and is thus optional.
 
 
 ## Optimizations
 
-The size of a vlidated coin is estimated to be around 1KB. It needs to be determined how the amount of data can be minimized when transferring large numbers of coins. Besides combining coins as described above, another way could be to reference a URL instead of inlining the promise description.
+Experiments have shown that the size of a validated coin is approximately 2KB. When transferring large numbers of coins, it should be possible to decrease the necessary amount of data. One way could be to combine coins into a single transaction, another to reference a URL instead of inlining the promise description, or only including it once.
 
 
 
