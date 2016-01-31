@@ -60,7 +60,7 @@ For each type of user, an incentive must exist to participate in the currency. T
 
 Value-creating entities become backers by issuing delivery promises. These promises are most probably never demanded so selling these promises is a source of capital for the backers which can be invested. They also gain a margin when buying back their promises.
 
-The backer also has an incentive to prevent double-spending since that would increase the demandable deliveries without receiving compensation.
+The backer also has an incentive to prevent double-spending since that would increase the demandable deliveries without receiving compensation. This is done by "validating" a transferred coin.
 
 ### Regulator
 
@@ -104,12 +104,12 @@ A fraction `F` of coin `COIN` is transferred from its current owner to a target 
 
 #### Validated Coin
 
-Transferred coins are recursively validated with  
-`valid(trans(COIN, C, G)) = sign(A, (P, K_C, G * fract(P), hash(P)))` with  
-`P = prev(valid(COIN))` and the termination point  
-`valid(valid(COIN, X, F)) = valid(COIN, X, F)` and where  
-`prev(trans(COIN, A, F)) = valid(COIN)` and  
-`fract(trans(COIN, A, F)) = F`
+Transferred coins are recursively validated by the backer `A` with  
+`valid(trans(COIN, C, F), A) = sign(A, (P, K_C, F * fract(P), hash(P)))` with  
+`P = prev(valid(COIN, A))` where  
+`prev(trans(COIN, A, F)) = COIN` and  
+`fract(trans(COIN, A, F)) = F` with the terminating case    
+`valid(coin(A, i)) = trans(coin(A, i), nil, 1)`
 
 
 ### Use cases
