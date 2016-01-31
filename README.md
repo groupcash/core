@@ -176,7 +176,7 @@ This is an incomplete list of possible attacks and how the cryptographic system 
 
 ### Faking ownership
 
-After `C` has transferred ownership of `Ci_ABC` to `K_D`, they could demand delivery of `P_A` from `A`. If `A` has not validated the transaction yet, they have no way to know that `K_C` is not the rightful owner. After validation, `A` is in possession of `Ci_ABC_D` to prove that the transaction was ordered by `K_D`.
+After `B` has transferred ownership of `CiABC` to `K_C`, they could demand delivery of `P_A` from `A`. If `A` has not validated the transaction yet, they have no way to know that `K_B` is not the rightful owner. After validation, `A` is in possession of `CiAB_C` to prove that the transaction was ordered by `K_B`.
 
 ### Double-spending
 
