@@ -11,11 +11,11 @@ While currencies used to be commodity-backed (e.g. gold standard), this is not a
 
 ### Low fluctuation
 
-Fluctuating currencies are prone to be hoarded by investors hoping to make profit. A goal of the proposed currency should be to incentivise circulation and decrease fluctuation. This is compatible with the goal of clear value proposition.
+Fluctuating exchange rates of currencies cause it to be hoarded by investors hoping to make profit. A goal of the proposed currency should be to incentivise circulation and decrease fluctuation. This is compatible with the goal of clear value proposition.
 
 ### High velocity
 
-The currency should provide an incentive to keep circulation going. Thus preventing deflation by hoarding and further stabilizing its value.
+The currency should provide an incentive to keep circulation going, for example by introducing an artificial inflation. Thus preventing hoarding which could lead to a shortage of tradable units and further stabilizing its value.
 
 ### Decentralization
 
@@ -27,7 +27,7 @@ High transaction fees harm the economy since they decrease the practical size of
 
 ### Built on trust
 
-While the main proposition of crypto-currencies like Bitcoin is that no trust is required between the participants in order to trade, this also creates purely profit-driven incentives to participate. In a completely unregulated market, this naturally leads to quasi-monopolies. The proposed currency should provide its users gains from trust each other and make sure that the self-interest of its participants does not contradict the common interest of the community.
+While the main proposition of crypto-currencies like Bitcoin is that no trust is required between the participants in order to trade, this also creates purely profit-driven incentives to participate. In a completely unregulated market, this naturally leads to quasi-monopolies. The proposed currency should provide its users gains from trusting each other and make sure that the self-interest of its participants does not contradict the common interest of the community.
 
 
 
@@ -35,7 +35,7 @@ While the main proposition of crypto-currencies like Bitcoin is that no trust is
 
 ### Useful commodities
 
-The proposed currency is representative, i.e. directly backed by useful commodities. It's units are delivery promise by a value-creating entity. What counts as "useful" must be defined by the community but ideally it would be something with intrinsic value like food, energy or workforce as opposed to merely "rare" substances like gold. Since each unit represents a promise directly, users can decide themselves which commodities they find useful and which backers trust-worthy.
+The proposed currency is representative, i.e. directly backed by useful commodities. It's units are delivery promises by value-creating entities. What counts as "useful" must be defined by the community but ideally it would be something with intrinsic value like food, energy or workforce as opposed to merely "rare" substances like gold. Since each unit represents a promise directly, users can decide themselves which commodities they find useful and which backers trust-worthy.
 
 ### Regulation
 
@@ -58,17 +58,17 @@ For each type of user, an incentive must exist to participate in the currency. T
 
 ### Backer
 
-Value-creating entities become backers by issuing delivery promises. These promises are most probably never demanded so selling these promises is a source of capital for the backers which can be invested. They also gain a margin when buying back their promises.
+Value-creating entities become backers by making delivery promises. These promises are most probably never demanded so selling these promises is a source of capital for the backers which can be invested. Since they receive this loan by a large number of people, the result a kind of crowd-funding. Backers can also gain a margin when buying back their promises.
 
-The backer also has an incentive to prevent double-spending since that would increase the demandable deliveries without receiving compensation. This is done by "validating" a transferred coin.
+A backer also has an incentive to prevent double-spending since that would increase the demandable deliveries without receiving compensation. This is done by "validating" a transferred coin.
 
 ### Regulator
 
-The regulator bears the costs of acquiring new backers, assuring their compatibility, determining the delivery promise equivalent to one unit and calculating the maximum number of units they may issue. This could be compensated by a fee for validating the created units, decreasing the sell/buy margin of the backers. Another source of income could be to manage the accounts of the backers, either charging for this service or by keeping the margins.
+The regulator bears the costs of acquiring new backers, assuring their compatibility, determining the delivery promise equivalent to one unit and calculating the maximum number of units they may issue. This could be compensated by a fee per created units, decreasing the sell/buy margin of the backers. Another source of revenue could be to manage the accounts of the backers, either charging for this service or keeping the margins.
 
 ### Merchant
 
-By accepting the proposed currency, merchants benefit from a faster, more secure and cheaper mean of payment. Because of the guaranteed buy-back by the backers, the risk is the buy/sell margin and thus small and calculate-able.
+By accepting the proposed currency, merchants benefit from a faster, more secure and cheaper mean of payment. Because of the guaranteed buy-back by the backers, the only risk is the buy/sell margin and thus small and calculate-able.
 
 ### Consumer
 
@@ -85,7 +85,7 @@ The following is a semi-formal description of the communication between the part
 
 #### Issued Coin
 
-An issued coin worth one currency unit can be denoted as  
+An issued "coin" worth one currency unit can be denoted as  
 `coin(A, i) = sign(R, (P_A, i, K_A))`  where  
 `sign(Y, X) = (X, hash(X) ^ PK_Y)` is `X` signed by `Y`  
 `PK_R` is the private key of `R`  
@@ -108,8 +108,8 @@ Transferred coins are recursively validated by the backer `A` with
 `valid(trans(COIN, C, F), A) = sign(A, (P, K_C, F * fract(P), hash(P)))` with  
 `P = prev(valid(COIN, A))` where  
 `prev(trans(COIN, A, F)) = COIN` and  
-`fract(trans(COIN, A, F)) = F` with the terminating case    
-`valid(coin(A, i)) = trans(coin(A, i), nil, 1)`
+`fract(trans(COIN, A, F)) = F`  
+the terminating case is `valid(coin(A, i)) = trans(coin(A, i), nil, 1)`
 
 
 ### Use cases
@@ -158,7 +158,7 @@ In order for the signatures to be reliable, the following is needed
 
 ### Secure private keys
 
-The private keys of all participants must remain private. If a private key is stolen, the victim can lose all their unspend units.
+The private keys of all participants must remain private. If a private key is stolen, the victim can lose all their unspent units.
 
 ### Market acceptance
 
