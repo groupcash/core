@@ -44,6 +44,7 @@ To make sure that the promises comply with the above mentioned definition and al
 ### Cryptographic signatures
 
 To enable decentralization, public/private key pairs are used to sign contracts like promises and transactions. Public keys serve as pseudonyms and addresses of the participants.
+
 While spending units still relies on the validation of the backer, they cannot change your "balance" without your signature.
 
 ### Fixed prices
@@ -148,6 +149,12 @@ Experiments have shown that the size of a validated coin is approximately 2KB. W
 
 
 ## Assumptions
+
+### Available computers
+
+Since transactions rely of cryptographic signatures, participants require a computer to make transactions. For validating the transaction, a connection to the backer is needed. In order to use the currency of the go, both both assets need to be mobile.
+
+Although there would be the possibility of ceasing paper bills by printing Blanco transactions that can be claimed by anyone.
 
 ### Reliable signatures
 
