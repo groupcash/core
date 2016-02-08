@@ -77,78 +77,27 @@ Consumers benefit from a faster, cheaper way of payment as well. Because of the 
 
 
 
-## Protocol
+## Standards
 
-The following is a semi-formal description of the communication between the participants of the currency.
+A extensible set of protocols and standards is twittered to enable a community-driven development of tools for trading. There are three areas where standardization is needed.
 
+### Algorithms
 
-### Definitions
+At the core sits a set of algorithms to *issue* currency units, *transfer* them between participants and *validate* transactions. A proposed set of algorithms is described [here](algorithms.md).
 
-#### Issued Coin
+### Representation
 
-An issued "coin" worth one currency unit can be denoted as  
-`coin(A, i) = sign(R, (P_A, i, K_A))`  where  
-`sign(Y, X) = (X, hash(X) ^ PK_Y)` is `X` signed by `Y`  
-`PK_R` is the private key of `R`  
-`R` is the regulatory entity  
-`hash(X)` is a cryptographic hash of `X`  
-`P_A` is a delivery promise by `A` worth one unit  
-`A` is a backing entity  
-`i` is the serial number of the coin  
-`K_A` is the public key of `A`  
+It should be possible to store currency units digitally as well as on an analogue medium, for example by printing a number in a machine readable form. Different representations should be easily transformable.
 
-#### Transferred Coin
+### Transport
 
-A fraction `F` of coin `COIN` is transferred from its current owner to a target `B` with  
-`trans(COIN, B, F) = sign(A, (COIN, K_B, F))` where  
-`F = ]0:1]`
-
-#### Validated Coin
-
-Transferred coins are recursively validated by the backer `A` with  
-`valid(trans(COIN, C, F), A) = sign(A, (P, K_C, F * fract(P), hash(P)))` with  
-`P = prev(valid(COIN, A))` where  
-`prev(trans(COIN, A, F)) = COIN` and  
-`fract(trans(COIN, A, F)) = F`  
-the terminating case is `valid(coin(A, i)) = trans(coin(A, i), nil, 1)`
-
-
-### Use cases
-
-#### Genesis
-
-`R` and `A` decide on `P_A` -- the promised delivery by `A` per unit   
-`R` determines `X_A` -- the number of currency units plausibly backed by `A`  
-`R` publishes `sign(R, (A, K_A, P_A, X_A))`  
-`R` sends `CiA = coin(A, i)` to `K_A` with `i=[1;X_A]`  
-
-#### Buying
-
-`B` gets list of all backers from `R`, including `K_A`  
-`B` requests `X` units from `K_A`  
-`A` sends `CiAB = trans(CiA, K_B, F)` to `K_B` with `i=[n;n+X]`  
-
-#### Transfer
-
-`B` sends `CiAB_C = trans(CiAB, K_C, F)` to `K_A` for validation  
-`A` sends `CiABC = valid(AiAB_C)` to `K_B`  
-`B` sends `CiABC` to `K_C`  
-
-#### Offline transfer
-
-`B` sends `CiAB_C` to `K_C`  
-`C` sends `CiAB_C` to `K_A` for validation  
-`A` sends `CiABC` to `K_C`
-
-
-
-## Optimizations
-
-Experiments have shown that the size of a validated coin is approximately 2KB. When transferring large numbers of coins, it should be possible to decrease the necessary amount of data. One way could be to combine coins into a single transaction, another to reference a URL instead of inlining the promise description, or only including it once.
+It needs to be possible to send units to users of the currency for transference and to backers for validation. This can happen directly through existing channels but there should also be standardized protocols to facilitate interoperability between different systems. One way of transport could be through a peer-to-peer network, another via a client-server protocol.
 
 
 
 ## Assumptions
+
+There are several requirements for this system to work.
 
 ### Available computers
 
