@@ -53,7 +53,7 @@ The following sections contain informal descriptions of how to **verify** the in
 
 A coin can be verified successfully if all of the following criteria are met
 
-- The issuer of the coin is authenticated by the regulatory entity of the currency
+- The issuer of the coin is authorized by the regulatory entity of the currency
 - The signature of the issuer is valid
 - The signature if each transaction is valid
 - The signer of each transaction is the target of the previous transaction
