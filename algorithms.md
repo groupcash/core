@@ -7,35 +7,41 @@ This document proposes three core algorithms to create and transform currency un
 
 The most important actions for managing the currency are to **issue** new coins, **transfer** coins to new owners and **validate** the legitimacy of transferred coins.
 
-Although these are formal descriptions, they are not complete and therefore sufficient for implementation.
+Although these are formal descriptions, they are not complete enough to derive an implementation.
 
 ### Issue Coin
 
-An issued coin is worth one currency unit can be denoted as  
-`coin(A, i) = sign(R, (P_A, i, K_A))`  where  
-`sign(Y, X) = (X, hash(X) ^ PK_Y)` is `X` signed by `Y`  
-`PK_R` is the private key of `R`  
+An issued coin worth one currency unit can be denoted as  
+`coin(R, A, i) = sign(S, (K_R, K_A, P_A, i))`  where  
 `R` is the regulatory entity  
-`hash(X)` is the cryptographic hash of `X`  
-`P_A` is a delivery promise by `A` worth one unit  
+`S` is an issuer for `R`  
 `A` is a backing entity  
 `i` is the serial number of the coin  
-`K_A` is the public key of `A`  
+`P_A` is a delivery promise by `A` worth one unit  
+`K_Y` is the public key of `Y`  
+`sign(Y, X) = (X, hash(X) ^ PK_Y)` is `X` signed by `Y`  
+`PK_Y` is the private key of `Y` and  
+`hash(X)` is the cryptographic hash of `X`  
 
 ### Transfer Coin
 
-A fraction `F` of coin `COIN` is transferred from its current owner to a target `B` with  
+A coin is transferred to a new owner with    
 `trans(COIN, B, F) = sign(A, (COIN, K_B, F))` where  
-`F = ]0:1]`  
+`COIN` is the coin to be transferred  
+`A` is the current owner of the coin  
+`B` is the target of the transference and  
+`F = ]0:1]` is the fraction of the coin to be transferred  
 
 ### Validate Coin
 
-Transferred coins are recursively validated by the backer `A` with  
-`valid(trans(COIN, C, F), A) = sign(A, (P, K_C, F * fract(P), hash(P)))` with  
-`P = prev(valid(COIN, A))` where  
+Transferred coins are recursively validated with  
+`valid(trans(COIN, C, F), A) = sign(A, (P, K_C, F * fract(P), hash(P)))` where  
+`A` is the baker of `COIN`  
+`P = prev(valid(COIN, A))`    
 `prev(trans(COIN, A, F)) = COIN` and  
 `fract(trans(COIN, A, F)) = F`  
-the terminating case is `valid(coin(A, i)) = trans(coin(A, i), nil, 1)`
+with the terminating case  
+`valid(coin()) = trans(coin(), nil, 1)`
 
 
 
@@ -47,7 +53,7 @@ The following sections contain informal descriptions of how to **verify** the in
 
 A coin can be verified successfully if all of the following criteria are met
 
-- The issuer of the coin is an accepted regulatory entity of the currency
+- The issuer of the coin is authenticated by the regulatory entity of the currency
 - The signature of the issuer is valid
 - The signature if each transaction is valid
 - The signer of each transaction is the target of the previous transaction
@@ -77,7 +83,7 @@ The sum of all balances must always be zero.
 `R` and `A` decide on `P_A` -- the promised delivery by `A` per unit   
 `R` determines `X_A` -- the number of currency units plausibly backed by `A`  
 `R` publishes `sign(R, (A, K_A, P_A, X_A))`  
-`R` sends `CiA = coin(A, i)` to `K_A` with `i=[1;X_A]`  
+`R` sends `CiA = coin(R, A, i)` to `K_A` with `i=[1;X_A]`  
 
 ### Buying
 
