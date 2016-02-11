@@ -1,4 +1,4 @@
-# Groupcash: A Commodity-Backed Cryptographic Community Currency
+# Groupcash: A Commodity-Backed Cryptographic Complementary Currency
 
 This text describes a virtual complementary currency, relying on contracts concluded with cryptographic signatures and backed by delivery promises of value-creating community members. The compatibility and plausibility of these promises is verified by a regulatory mechanism. The proposal is inspired by cryptographic and local currencies.
 
