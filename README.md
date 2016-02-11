@@ -7,7 +7,7 @@ This text describes a virtual complementary currency, relying on contracts concl
 
 ### Clear value concept
 
-While currencies used to be commodity-backed (e.g. gold standard), this is not any more the case for most. Hence the value of these "political" currencies is mainly make-belief. It's derived from what people believe it's worth and how much they think it will be worth in the future. It also depends on how much they trust the government that is guaranteeing the value. A goal of the proposed currency must be that each participant can easily understand and estimate the value of each currency unit.
+While currencies used to be commodity-backed (e.g. gold standard), this is not any more the case for most. Hence the value of these "political" currencies is mainly make-belief. It's derived from what people believe it's worth and how much they think it will be worth in the future. It also depends on how much they trust the bbanks and government that is guaranteeing the value. A goal of the proposed currency must be that each participant can easily understand and estimate the value of each currency unit.
 
 ### Low fluctuation
 
@@ -15,15 +15,15 @@ Fluctuating exchange rates of currencies cause it to be hoarded by investors hop
 
 ### High velocity
 
-The currency should provide an incentive to keep circulation going, for example by introducing an artificial inflation. Thus preventing hoarding which could lead to a shortage of tradable units and further stabilizing its value.
+The currency should provide an incentive to keep circulation going, thus preventing hoarding which could lead to a shortage of tradable units and destabilize its value.
 
 ### Decentralization
 
-The creation of traditional, political currencies lies in the hand of a single government body. Double-spending is avoided through counterfeit-proof tokens (cash) and accounts managed by a few banks. The proposed currency should use a community to collectively create spendable units and prohibit double-spending. The participants should also be able to transfer units independently if wished.
+The creation of conventional currencies lies in the hand of a single government body and private banks. Double-spending is avoided through counterfeit-proof tokens (cash) and accounts managed by a few banks. The proposed currency should use a community to collectively create spendable units and prohibit double-spending. The participants should also be able to transfer units independently if wished.
 
 ### No transaction fees
 
-High transaction fees harm the economy since they decrease the practical size of transactions. The proposed currency should enable transaction to very low or no costs. The goal of decentralization supports this as well.
+Transaction fees harm the economy since they decrease the practical size of transactions. The proposed currency should enable transaction to very low or no costs. The goal of decentralization supports this as well.
 
 ### Built on trust
 
@@ -35,7 +35,7 @@ While the main proposition of crypto-currencies like Bitcoin is that no trust is
 
 ### Useful commodities
 
-The proposed currency is representative, i.e. directly backed by useful commodities. It's units are delivery promises by value-creating entities. What counts as "useful" must be defined by the community but ideally it would be something with intrinsic value like food, energy or workforce as opposed to merely "rare" substances like gold. Since each unit represents a promise directly, users can decide themselves which commodities they find useful and which backers trust-worthy.
+The proposed currency is representative, i.e. directly backed by useful commodities. It's units are delivery promises made by value-creating entities. What counts as "useful" must be defined by the community but ideally it would be something with intrinsic value like food, energy or workforce as opposed to merely "rare" substances like gold. Since each unit represents a promise directly, users can decide themselves which commodities they find useful and which backers trust-worthy.
 
 ### Regulation
 
@@ -43,13 +43,11 @@ To make sure that the promises comply with the above mentioned definition and al
 
 ### Cryptographic signatures
 
-To enable decentralization, public/private key pairs are used to sign contracts like promises and transactions. Public keys serve as pseudonyms and addresses of the participants.
-
-While spending units still relies on the validation of the backer, they cannot change your "balance" without your signature.
+To enable de-centralization, public/private key pairs are used to sign contracts like promises and transactions. Public keys serve as pseudonyms and addresses of the participants. While spending units still relies on the validation of the backer, they cannot change your "balance" without the owners signature.
 
 ### Fixed prices
 
-While units can be sold and bought on the open market, backers should guarantee a fixed price. For example $1 per unit. They should also guarantee to buy-back their promises although they can keep a margin.
+While units can be sold and bought on the open market, backers should guarantee a fixed price. For example $1 per unit. They should also guarantee to buy-back their promises although they may keep a margin.
 
 
 
@@ -59,9 +57,9 @@ For each type of user, an incentive must exist to participate in the currency. T
 
 ### Backer
 
-Value-creating entities become backers by making delivery promises. These promises are most probably never demanded so selling these promises is a source of capital for the backers which can be invested. Since they receive this loan by a large number of people, the result a kind of crowd-funding. Backers can also gain a margin when buying back their promises.
+Value-creating entities become backers by making delivery promises. Some of them are probably never demanded so selling these promises is a source of capital for the backers which can be invested. Since they receive this loan by a large number of people, it can be compared to crowd-funding. Backers can also gain a margin when buying back their promises.
 
-A backer also has an incentive to prevent double-spending since that would increase the demandable deliveries without receiving compensation. This is done by "validating" a transferred coin.
+A backer also has an incentive to prevent double-spending since that would increase the demandable deliveries without receiving compensation. This is done by "validating" a transference.
 
 ### Regulator
 
@@ -69,29 +67,29 @@ The regulator bears the costs of acquiring new backers, assuring their compatibi
 
 ### Merchant
 
-By accepting the proposed currency, merchants benefit from a faster, more secure and cheaper mean of payment. Because of the guaranteed buy-back by the backers, the only risk is the buy/sell margin and thus small and calculate-able.
+By accepting the proposed currency, merchants benefit from a faster, more secure and cheaper mean of payment. Because of the guaranteed buy-back by the backers, the only risk is the buy/sell margin and thus small and calculate-able. Merchants can also promote under-used assets by accepting part of the payment in the local currency.
 
 ### Consumer
 
-Consumers benefit from a faster, cheaper way of payment as well. Because of the fixed prices, units can be bought with no loss.
+Consumers benefit from a faster, cheaper way of payment as well. Because of the fixed prices, units can be bought with no loss. Units could also be sold at a discount.
 
 
 
 ## Standards
 
-A extensible set of protocols and standards is twittered to enable a community-driven development of tools for trading. There are three areas where standardization is needed.
+A extensible set of protocols and standards is needed to enable a community-driven development of tools for trading. There are three areas where standardization is needed.
 
 ### Algorithms
 
-At the core sits a set of algorithms to *issue* currency units, *transfer* them between participants and *validate* transactions. A proposed set of algorithms is described [here](algorithms.md).
+At the core of the system sits a set of algorithms to *issue* currency units, *transfer* them between participants and *validate* transactions. A proposal is described [here](algorithms.md).
 
 ### Representation
 
-It should be possible to store currency units digitally as well as on an analogue medium, for example by printing a number in a machine readable form. Different representations should be easily transformable.
+It should be possible to store currency units digitally as well as on an analogue medium, for example by printing them in a machine readable form. Different representations should be easily transformable.
 
 ### Transport
 
-It needs to be possible to send units to users of the currency for transference and to backers for validation. This can happen directly through existing channels but there should also be standardized protocols to facilitate interoperability between different systems. One way of transport could be through a peer-to-peer network, another via a client-server protocol.
+It needs to be possible to send units to users of the currency for transference and to backers for validation. This can happen directly through existing channels like email but there should also be standardized protocols to facilitate interoperability between different systems. One way of transport could be through a peer-to-peer network, another via a client-server protocol.
 
 
 
@@ -103,7 +101,7 @@ There are several requirements for this system to work.
 
 Since transactions rely of cryptographic signatures, participants require a computer to make transactions. For validating the transaction, a connection to the backer is needed. In order to use the currency of the go, both both assets need to be mobile.
 
-Although there would be the possibility of ceasing paper bills by printing Blanco transactions that can be claimed by anyone.
+Computers can be avoided by printing *blank* transactions that can be claimed by anyone and therefore can be used like paper bills but increase the risk of fraud through double-spending.
 
 ### Reliable signatures
 
@@ -118,7 +116,7 @@ The private keys of all participants must remain private. If a private key is st
 
 ### Market acceptance
 
-The currency requires are sufficient number of unit for trade. This depends on the number of backers and their willingness to issue promises. It must also be accepted by merchants and consumers.
+The currency requires are sufficient number of units for trade and possibilities to spend them. This depends on the number of backers and their willingness to issue promises. It must also be accepted by merchants and consumers.
 
 ### Enforceability of signatures
 
