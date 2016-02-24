@@ -1,6 +1,9 @@
 # Groupcash: A Commodity-Backed Cryptographic Complementary Currency System
 
-This text describes a system for virtual complementary currencies, relying on contracts concluded with cryptographic signatures and backed by delivery promises of value-creating community members. The compatibility and plausibility of these promises is verified by a regulatory mechanism. The proposal is inspired by cryptographic and local currencies.
+This text describes a system for virtual complementary currencies, relying on contracts concluded with cryptographic signatures and backed by delivery promises of value-creating community members. The compatibility and plausibility of these promises is verified by a regulatory mechanism. The proposal is inspired by [bitcoin] and [local currencies].
+
+[bitcoin]: https://bitcoin.org/bitcoin.pdf
+[local currencies]: https://en.wikipedia.org/wiki/Local_currency
 
 
 ## Design goals
@@ -121,17 +124,3 @@ The currency requires are sufficient number of units for trade and possibilities
 ### Enforceability of signatures
 
 The signed promises must be enforceable, meaning the proven owner of the promise must have a right to receive the promised delivery.
-
-
-
-## Attacks
-
-This is an incomplete list of possible attacks and how the cryptographic system protects the participants.
-
-### Faking ownership
-
-After `B` has transferred ownership of `CiABC` to `K_C`, they could demand delivery of `P_A` from `A`. If `A` has not validated the transaction yet, they have no way to know that `K_B` is not the rightful owner. After validation, `A` is in possession of `CiAB_C` to prove that the transaction was ordered by `K_B`.
-
-### Double-spending
-
-The only way to make sure that a unit hasn't been transferred before is to ask the backer to validate the transaction. In case this is not possible because of a lack of connectivity, the transaction can still be accepted and validated later if the receiver trusts the sender.
