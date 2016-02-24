@@ -12,7 +12,7 @@ The structures and their graphical representations is a adoption of the [bitcoin
 
 ![Coin Issue](figures/issue.svg)
 
-## Transfering Values
+## Transferring Values
 
 ![Coin Transaction](figures/transaction.svg)
 
