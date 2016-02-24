@@ -1,9 +1,9 @@
 # Groupcash: A Commodity-Backed Cryptographic Complementary Currency System
 
-This text describes a system for virtual complementary currencies, relying on contracts concluded with cryptographic signatures and backed by delivery promises of value-creating community members. The compatibility and plausibility of these promises is verified by a regulatory mechanism. The proposal is inspired by [bitcoin] and [local currencies].
+This text describes a system for virtual complementary currencies, relying on contracts concluded with cryptographic signatures and backed by delivery promises of value-creating community members. The compatibility and plausibility of these promises is verified by a regulatory mechanism. The proposal is inspired by [cryptographic] and [local] currencies.
 
-[bitcoin]: https://bitcoin.org/bitcoin.pdf
-[local currencies]: https://en.wikipedia.org/wiki/Local_currency
+[cryptographic]: https://en.wikipedia.org/wiki/Cryptocurrency
+[local]: https://en.wikipedia.org/wiki/Local_currency
 
 
 ## Design goals
@@ -82,9 +82,13 @@ Consumers benefit from a faster, cheaper way of payment as well. Because of the 
 
 A extensible set of protocols and standards is needed to enable a community-driven development of tools for trading. There are three areas where standardization is needed.
 
+### Structure
+
+At the core of the system sits a set of algorithms to *issue* currency units, *transfer* them between participants and *confirm* transactions. The underlying data structures are described [here](structures.md).
+
 ### Algorithms
 
-At the core of the system sits a set of algorithms to *issue* currency units, *transfer* them between participants and *validate* transactions. A proposal is described [here](algorithms.md).
+Each application needs to use the same cryptographic algorithms. These should be chosen from an extensible suite of algorithms.
 
 ### Representation
 
