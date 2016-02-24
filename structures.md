@@ -1,6 +1,6 @@
 # Data Structures
 
-This document described the data structures that the proposed currency system is based on. These structures allow to **issue** coins, **transfer** their ownership and **confirm** them, i.e. avoid double spending, without a central database.
+This document describes the data structures that the proposed currency system is based on. These structures allow to **issue** coins, **transfer** their ownership and **confirm** them, i.e. avoid double spending, without a central database.
 
 The data structures and their graphical representations are a adopted from the [bitcoin] whitepaper.
 
