@@ -78,6 +78,14 @@ Consumers benefit from a faster, cheaper way of payment as well. Because of the 
 
 
 
+## Symbol
+
+The *groupcash* symbol is a bank note so show that its currencies can be traded like cash - offline and without depending on a central institution for each transaction. Instead of the king's or queen's face or some politician it bears a group of people in its center because each currency belongs to its community. The codes left and right symbolize its gryptographic and the binary nomination its digital nature.
+
+![Icon](https://cdn.rawgit.com/groupcash/core/de9da51/symbol.svg)
+
+
+
 ## Standards
 
 A extensible set of protocols and standards is needed to enable a community-driven development of tools for trading. There are three areas where standardization is needed.
