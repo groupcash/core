@@ -1,6 +1,6 @@
 # Data Structures
 
-This document describes the data structures and their transformations that the proposed currency system is based on. These structures allow to **issue** coins, **transfer** their ownership and **confirm** them (i.e. avoid double spending) without a central database.
+This document describes the data structures and their transformations that the proposed currency system is based on. These structures allow to **issue** new coins, **transfer** their ownership and **confirm** them (to avoid double spending) without a central database.
 
 The structures and their graphical representations are a adopted from the [bitcoin] whitepaper.
 
@@ -14,13 +14,13 @@ A *Coin* is a chain of *Transactions*, each transferring the ownership of the pr
 
 ## Genesis
 
-The beginning of the chain is formed by the *Issue* Transaction which is signed indirectly by the regulatory entity with the private key of the *Currency*. The regulator of the Currency can authorize *Issuers* to distribute the task of issuing coins without having to share the Currency's private key.
+The beginning of the chain is formed by the *Base* Transaction which is signed indirectly by the regulatory entity with the private key of the *Currency*. The regulator of the Currency can authorize *Issuers* to distribute the task of issuing coins without having to share the Currency's private key.
 
-The Issuer signs the description of a delivery *Promise* that the Coin is backed by, together with the public key of the *Backer* and the *Value* of the Promise in currency units. The structure of the *Authorization*, the Promise and the Issue is shown in the following figure.
+The Issuer signs the description of a delivery *Promise* that the Coin is backed by, together with the public key of the *Backer* and the *Value* of the Promise in currency units. The structure of the *Authorization*, the Promise and the Base is shown in the following figure.
 
-![Coin Issue](https://cdn.rawgit.com/groupcash/core/master/figures/issue.svg)
+![Coin Base](https://cdn.rawgit.com/groupcash/core/master/figures/base.svg)
 
-It is the Issuer's responsibility to make sure that the Promise is legit and to determine its worth in the given currency. Since the signatures rely on hashes, the Promise must be unique per Backer and Issuer to avoid two Issues with the same hash.
+It is the Issuer's responsibility to make sure that the Promise is legit and to determine its worth in the given currency. Since the signatures rely on hashes, the Promise must be unique per Backer and Issuer to avoid two Bases with the same hash.
 
 ## Transferring Values
 
@@ -34,11 +34,11 @@ The sum of all Output values must equal the sum of all Input values. If it's sma
 
 ## Confirmation
 
-Because each Transaction can have multiple Inputs, a Coin is the root of a Transaction tree, consisting of overlapping chains between an Issue and the Coin as illustrated in the following figure.
+Because each Transaction can have multiple Inputs, a Coin is the root of a Transaction tree, consisting of overlapping chains between a Base and the Coin as illustrated in the following figure.
 
 ![Transaction Tree](https://cdn.rawgit.com/groupcash/core/master/figures/tree.svg)
 
-If this chain is longer than one Transaction, a fraudulent participant could reference his Output with more than one Input, effectively double-spending the Coin. To make sure that this hasn't happened, a Target needs to confirm the validity of the Coin. This is done by the Backers of the Issues which form the leafs of the tree.
+If this chain is longer than one Transaction, a fraudulent participant could reference his Output with more than one Input, effectively double-spending the Coin. To make sure that this hasn't happened, a Target needs to confirm the validity of the Coin. This is done by the Backers of the Bases at the leafs of the tree.
 
 The Backers verify the consistency of all Transaction chains and make sure that no Transaction referencing any Output of the involved Transactions has already been confirmed by them. Each Backer creates then a new Coin with a *Confirmation* Transaction, transferring their proportion of the original Coin to its Owner.
 
