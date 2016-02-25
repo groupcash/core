@@ -1,49 +1,49 @@
 # Data Structures
 
-This document describes the data structures that the proposed currency system is based on. These structures allow to **issue** coins, **transfer** their ownership and **confirm** them, i.e. avoid double spending, without a central database.
+This document describes the data structures and their transformations that the proposed currency system is based on. These structures allow to **issue** coins, **transfer** their ownership and **confirm** them (i.e. avoid double spending) without a central database.
 
-The data structures and their graphical representations are a adopted from the [bitcoin] whitepaper.
+The structures and their graphical representations are a adopted from the [bitcoin] whitepaper.
 
 [bitcoin]: https://bitcoin.org/bitcoin.pdf
 
 ## Transactions
 
-A *coin* is a chain of transactions, each transferring the ownership of the previous one to a new target. This is done by signing the targets public key together with the hash of the previous transaction with the private key of the owner, as shown is the following figure.
+A *Coin* is a chain of *Transactions*, each transferring the ownership of the previous one to the public key of a new *Target* owner. This is done by signing the Target's public key together with the hash of the previous Transaction with the private key of the owner, as shown is the following figure.
 
 ![Transaction chain](https://cdn.rawgit.com/groupcash/core/master/figures/chain.svg)
 
 ## Genesis
 
-The beginning of the chain is formed by the *issue* transaction which is signed indirectly by the regulatory entity with the private key of the currency. The regulator of the currency can authorize issuers to distribute the issuing without having to share the currency's private key.
+The beginning of the chain is formed by the *Issue* Transaction which is signed indirectly by the regulatory entity with the private key of the *Currency*. The regulator of the Currency can authorize *Issuers* to distribute the task of issuing coins without having to share the Currency's private key.
 
-The issue signs the description of a delivery promise that the coin is backed by together with the public key of the backer and the value of the promise in currency units, as shown in the following figure.
+The Issuer signs the description of a delivery *Promise* that the Coin is backed by, together with the public key of the *Backer* and the *Value* of the Promise in currency units. The structure of the *Authorization*, the Promise and the Issue is shown in the following figure.
 
 ![Coin Issue](https://cdn.rawgit.com/groupcash/core/master/figures/issue.svg)
 
-It is the issuer's responsibility to make sure that the promise is legit and to determine its worth in the given currency.
+It is the Issuer's responsibility to make sure that the Promise is legit and to determine its worth in the given currency. Since the signatures rely on hashes, the Promise must be unique per Backer and Issuer to avoid two Issues with the same hash.
 
 ## Transferring Values
 
-Each transaction can refer to multiple previous transactions, called *inputs* and also transfer different parts of its input to several targets, called *outputs*. Each input references an output of another transaction whereas all referenced outputs must have the same target.
+Each Transaction can refer to multiple previous Transactions, called *Inputs* and also transfer different parts of its Input to several Targets, called *Outputs*. Each Input references one Output of another Transaction whereas all referenced outputs must have the same Target.
 
-As depicted in the following figure, the owner (the target of the references outputs) signs the hash of all inputs and outputs.
+As depicted in the following figure, the owner (the common Target of the references Outputs) signs the hash of all Inputs and Outputs.
 
 ![Coin Transaction](https://cdn.rawgit.com/groupcash/core/master/figures/transaction.svg)
 
-The sum of all output values must equal the sum of all input values. If it's smaller, currency units are lost since every output can only be referenced by one input to make sure that every transaction has a unique hash value.
+The sum of all Output values must equal the sum of all Input values. If it's smaller, currency units are lost since every Output can only be referenced by one Input to make sure that every Transaction has a unique hash value.
 
 ## Confirmation
 
-Because each transaction can have multiple inputs, a coin is the root of a transaction tree, consisting of overlapping chains between an *issue* and the coin as illustrated in the following figure.
+Because each Transaction can have multiple Inputs, a Coin is the root of a Transaction tree, consisting of overlapping chains between an Issue and the Coin as illustrated in the following figure.
 
 ![Transaction Tree](https://cdn.rawgit.com/groupcash/core/master/figures/tree.svg)
 
-If this chain is longer than one transaction, a fraudulent participant could reference his output with more than one input, effectively double-spending the coin. To make sure that this hasn't happened, the chain needs to be *confirmed* by the backer of the issue.
+If this chain is longer than one Transaction, a fraudulent participant could reference his Output with more than one Input, effectively double-spending the Coin. To make sure that this hasn't happened, a Target needs to confirm the validity of the Coin. This is done by the Backers of the Issues which form the leafs of the tree.
 
-The backers verify the consistency of the transaction chains and make sure that no transaction referencing any output of the involved transactions has already been confirmed. Each backer creates then a new coin with a *confirmation* transaction, transferring their proportion of the original coin to its owner. In order to preserve the uniqueness of each transaction, the hash of the root of the confirmed tree is included in the confirmation. The following figure show the resulting coins.
+The Backers verify the consistency of all Transaction chains and make sure that no Transaction referencing any Output of the involved Transactions has already been confirmed by them. Each Backer creates then a new Coin with a *Confirmation* Transaction, transferring their proportion of the original Coin to its Owner.
+
+In order to preserve the uniqueness of each Transaction, the hash of the root of the confirmed tree is included in the Confirmation. The following figure show the resulting Coins.
 
 ![Confirmation Result](https://cdn.rawgit.com/groupcash/core/master/figures/confirmation.svg)
 
-In the example, the backers **A** and **B** transfer `5` and `7` units to **D** respectively and the backer **C** transfers `8` units to **E**. These transfer parts of their received units to **F** which in turn transfers `8` units to **G**. In order to confirm it, **G** has to send the coin to **A**, **B** and **C**. These make new transferences proportional to the value of their promises. Since **A**'s promise is worth 5 units, they transfer `5 * 8 / (5+7+8) = 2` units to **G**. The other backer are doing likewise and the result is three coins with a combined value of `8`.
-
-If a backer confirms a coin by mistake, then the total value of coins based on their promise and therefore their liability increases without receiving compensation. Otherwise if a backer refuses to confirm a coin, the owner of the coin can demand to be shown the transaction transferring an output of their chain to another input. Therefore it exists a mutual enforceability of demands assuming that no private key was compromised.
+In the example, the Backers **A** and **B** transfer `5` and `7` units to **D** respectively and the Backer **C** transfers `8` units to **E**. **D** and **E** transfer parts of their received units to **F** which in turn transfers `8` units to **G**. In order to confirm these transactions, **G** has to send the Coin to **A**, **B** and **C**. These make new Transferences to **G** with a value proportional to the value of their promises. Since **A**'s promise is worth 5 units, they transfer `5 * 8 / (5+7+8) = 2` units to **G**. The other Backers are doing likewise which results in three Coins with a combined value of `8`.
