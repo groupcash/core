@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.555176mm"
-   height="23.335213mm"
-   viewBox="0 0 150.78606 82.683824"
+   width="241.78606"
+   height="137.10033"
+   viewBox="0 0 241.78606 137.10033"
    id="svg4153"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -22,11 +22,15 @@
     <rect
        height="8"
        width="8"
-       id="p" />
+       id="p"
+       x="0"
+       y="0" />
     <rect
        height="8"
        width="8"
-       id="p-9" />
+       id="p-9"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -35,16 +39,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="80.984192"
-     inkscape:cy="51.06838"
+     inkscape:zoom="2"
+     inkscape:cx="116.61163"
+     inkscape:cy="121.9197"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
      inkscape:window-x="0"
@@ -66,19 +70,19 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-276.77859,-326.63)">
+     transform="translate(-271.7786,-321.63)">
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3336"
-       width="150.78606"
-       height="82.683823"
+       width="231.78606"
+       height="127.10033"
        x="276.77859"
        y="326.63" />
     <g
        id="g4787"
-       transform="matrix(0.92764205,0,0,1,20.72271,106.88992)">
+       transform="matrix(1.4259574,0,0,1.537185,-116.82666,-11.151149)">
       <rect
-         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.92929268;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
          id="rect4785"
          width="143.13759"
          height="66.536789"
@@ -97,9 +101,9 @@
          sodipodi:cx="-285.62595"
          sodipodi:type="arc"
          id="path4709-2"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.79181242;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#000000;fill-opacity:1;stroke:none" />
       <path
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.79181242;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none"
          id="path4773"
          sodipodi:type="arc"
          sodipodi:cx="428.97925"
@@ -124,7 +128,7 @@
          sodipodi:cx="-227.71364"
          sodipodi:type="arc"
          id="path4775"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.79181242;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#000000;fill-opacity:1;stroke:none" />
       <path
          transform="matrix(0,1,-1,0,0,0)"
          inkscape:transform-center-x="-9.1683939"
@@ -138,11 +142,11 @@
          sodipodi:cx="294.45035"
          sodipodi:type="arc"
          id="path4777"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.79181242;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#000000;fill-opacity:1;stroke:none" />
     </g>
     <g
        id="g13880"
-       transform="translate(-1.6206019e-5,-3.684082e-6)">
+       transform="matrix(1.537185,0,0,1.537185,-148.68132,-175.46073)">
       <ellipse
          transform="translate(6.1254349,207.24746)"
          ry="27.570971"
@@ -225,7 +229,7 @@
     <g
        style="fill:#000000"
        id="g11566"
-       transform="matrix(0.07507905,0,0,0.07507905,296.33745,359.26275)">
+       transform="matrix(0.11541039,0,0,0.11541039,306.84417,376.79257)">
       <use
          height="1"
          width="1"
@@ -2052,7 +2056,7 @@
          style="stroke:#000000;stroke-width:2.33087659;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       transform="matrix(0.07507905,0,0,0.07507905,390.58745,359.26275)"
+       transform="matrix(0.11541039,0,0,0.11541039,451.72386,376.79257)"
        id="g12493"
        style="fill:#000000">
       <use
