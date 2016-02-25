@@ -1,4 +1,4 @@
-# Data Structures
+# Design
 
 This document describes the data structures and their transformations that the proposed currency system is based on. These structures allow to **issue** new coins, **transfer** their ownership and **confirm** them (to avoid double spending) without a central database.
 
@@ -18,7 +18,7 @@ The beginning of the chain is formed by the *Base* Transaction which is signed i
 
 The Issuer signs the description of a delivery *Promise* that the Coin is backed by, together with the public key of the *Backer* and the *Value* of the Promise in currency units. The structure of the *Authorization*, the Promise and the Base is shown in the following figure.
 
-![Coin Base](https://cdn.rawgit.com/groupcash/core/master/figures/base.svg)
+![Coin Base](https://cdn.rawgit.com/groupcash/core/master/figures/base.svg?1)
 
 It is the Issuer's responsibility to make sure that the Promise is legit and to determine its worth in the given currency. Since the signatures rely on hashes, the Promise must be unique per Backer and Issuer to avoid two Bases with the same hash.
 

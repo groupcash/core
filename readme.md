@@ -84,7 +84,7 @@ A extensible set of protocols and standards is needed to enable a community-driv
 
 ### Structure
 
-At the core of the system sits a set of algorithms to *issue* currency units, *transfer* them between participants and *confirm* transactions. The underlying data structures are described [here](structures.md).
+At the core of the system sits a set of algorithms to *issue* currency units, *transfer* them between participants and *confirm* transactions. The underlying data structures are described in the [design document](design.md).
 
 ### Algorithms
 
