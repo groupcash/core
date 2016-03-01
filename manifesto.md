@@ -1,49 +1,54 @@
 # Groupcash - Let's play by our own rules
 
-[work in progress]
+> *Pecunia non olet* - money does not stink.
 
-## Design goals
+A saying that might have been true in the ancient Rome is now only that: a saying. Modern money stinks to high heaven. It is a game invented - quite recently - by the rich and mostly played by the rich. It's rules are designed to benefit the ones who have, neglecting and harming the ones who don't. This results is social inequality, unrest and sometimes economic crises.
 
-### Clear value concept
-
-While currencies used to be commodity-backed (e.g. gold standard), this is not any more the case for most. Hence the value of these "political" currencies is mainly make-belief. It's derived from what people believe it's worth and how much they think it will be worth in the future. It also depends on how much they trust the bbanks and government that is guaranteeing the value. A goal of the proposed currency must be that each participant can easily understand and estimate the value of each currency unit.
-
-### Low fluctuation
-
-Fluctuating exchange rates of currencies cause it to be hoarded by investors hoping to make profit. A goal of the proposed currency should be to incentivise circulation and decrease fluctuation. This is compatible with the goal of clear value proposition.
-
-### High velocity
-
-The currency should provide an incentive to keep circulation going, thus preventing hoarding which could lead to a shortage of tradable units and destabilize its value.
-
-### Decentralization
-
-The creation of conventional currencies lies in the hand of a single government body and private banks. Double-spending is avoided through counterfeit-proof tokens (cash) and accounts managed by a few banks. The proposed currency should use a community to collectively create spendable units and prohibit double-spending. The participants should also be able to transfer units independently if wished.
-
-### No transaction fees
-
-Transaction fees harm the economy since they decrease the practical size of transactions. The proposed currency should enable transaction to very low or no costs. The goal of decentralization supports this as well.
-
-### Built on trust
-
-While the main proposition of crypto-currencies like Bitcoin is that no trust is required between the participants in order to trade, this also creates purely profit-driven incentives to participate. In a completely unregulated market, this naturally leads to quasi-monopolies. The proposed currency should provide its users gains from trusting each other and make sure that the self-interest of its participants does not contradict the common interest of the community.
+National currencies are that pervasive, that most people can't even imagine alternatives. But they exist. We can start our own game. One that benefits the community and the underprivileged. We can play by our own rules.
 
 
+## What's wrong with Money?
 
-## Implementation
+So what exactly are the problems with money? The answer to this question lies in the answers to three other question: Where does it come from? What is its function? And where does it go?
 
-### Useful commodities
+### Where does Money come from?
 
-The proposed currency is representative, i.e. directly backed by useful commodities. It's units are delivery promises made by value-creating entities. What counts as "useful" must be defined by the community but ideally it would be something with intrinsic value like food, energy or workforce as opposed to merely "rare" substances like gold. Since each unit represents a promise directly, users can decide themselves which commodities they find useful and which backers trust-worthy.
+It is a common misconception that money is created by the government or the central bank. In fact almost all **money is created by private banks** for profits when giving out credits. How is this possible? With a little trick called **fractional-reserve banking**. This means that a bank that has 10 coins gives out 100 coins of credit, *inventing* 90 coins on the way. While gold smiths in the ancient Rome were sentenced to death if caught promising more than they have, it is common practice nowadays almost everywhere in the world. So most money is not only **not backed by anything**, it doesn't even exist.
 
-### Regulation
+And the bank doesn't lend the 100 coins out of good will. Every **credit costs interests**. If you get those 100 coins from the bank, you'll have to give back 110 coins. Where do these 10 coins come from? Also debt. Because almost **all money is created through debt**. The result is that in order to pay the the interest, there needs to be more money every year. This either leads to inflation or through "growth", meaning that more goods are traded and therefore there can be more money without becoming worth less. That means that an economy based of interest-carrying debt is **forced to perpetually grow**, which in turn means that in such a system, **a sustainable economy is impossible**, because the world is finite.
 
-To make sure that the promises comply with the above mentioned definition and also to limit the risk that the backer will not be able to fulfil their promises, a regulatory mechanism is required. This mechanism must make sure that a backer does not sell more promises than they are likely to be able to deliver within a given time frame. For example, a rule could be that a maximum of 10% of the yearly output can be promised. The regulation could either be performed by an organisation or by the community itself.
+Another problem with this rule of *money only for interest* is that it makes it **easy to get more money if you have money**, and hard if not impossible to get any if you don't have any. The rich get richer, while the poor stay poor. This *negative property tax* benefits only the rich and increases social injustice.
 
-### Cryptographic signatures
+### What is the Purpose of Money?
 
-To enable de-centralization, public/private key pairs are used to sign contracts like promises and transactions. Public keys serve as pseudonyms and addresses of the participants. While spending units still relies on the validation of the backer, they cannot change your "balance" without the owners signature.
+The textbooks of economy tell us that money serves three functions:
 
-### Fixed prices
++ **A medium of exchange.** Without money you would have to bring a couple of chickens every time you wanted to acquire vegetables. Money makes our lives a lot easier and our purses a lot lighter.
 
-While units can be sold and bought on the open market, backers should guarantee a fixed price. For example $1 per unit. They should also guarantee to buy-back their promises although they may keep a margin.
++ **A unit of account.** How do you know how many tomatoes you can get for a chicken? Money is a common standard that we can use to measure the "worth" of things like centimetres are a common standard to measure the length of things.
+
++ **A store of value.** As it turns out, keeping money in the mattress is a lot more convenient than keeping chickens in the garden.
+
+The problem is that we only have one national currency to serve all three purposes. Why is that a problem? Because these **purposes are not compatible**. To be a good medium of exchange, it benefits from a negative interest rate (like inflation) to make people spend it faster. But this makes it a **poor unit of account** because its value changes over time. Using the same currency as a store of value means that less money is available the market (because its hidden in mattresses) which makes it a **poor medium of exchange**.
+
+### Where does the Money go?
+
+Because of the **profit pressure** caused by interest, money tends to always flow in the direction of the most profit. Capital **drains from economically weak regions** towards the nearest city, leaving those communities depleted where it's needed the most. The people follow the money, leading to an increased **rural-urban migration**.
+
+And how does it move? Either *physically* by handing over cash or *virtually* by transferring credit between bank accounts. Both ways carry a **transaction cost**. Cash requires transport, and electronic payments impose a **transaction fee**. This fee cannot be avoided because all non-cash transactions **depend on centralized institutions** to keep account of who has how much. These unavoidable costs make **micro-transaction unfeasible**, once again benefiting the rich and limiting the economic options of the small and poor.
+
+
+## A new Game
+
+One could think that these rules are universal. That this is just the way the world works and we have to accept this rigged game. But we don't.
+
+We can create a new game with our own rules. We can create a currency that is **run by the community** instead of profit-driven banks. We can decide that this currency should be **backed by delivery promises** of services and real commodities, instead of being created out of thin air. And we can use cryptography (mathematics plus computers) to **distribute accounting**, freeing us from centralized institutions.
+
+Such a currency would not try to replace the national currency but **complement** it. It can be used where conventional money does not reach or is not available. It would relief a single currency from having to fulfil contradictory roles.
+
+What we need is a **community currency** that we can shape and design to serve our own needs, that follows our own rules.
+
+
+## How does that change the Rules?
+
+[proof that the solution satisfies the conditions]
