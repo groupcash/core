@@ -1,138 +1,53 @@
-# Groupcash: A Commodity-Backed Cryptographic Complementary Currency System
+# Groupcash: A Commodity-Backed Cryptographic Complementary Currencies System
 
-This text describes a system for virtual complementary currencies, relying on contracts concluded with cryptographic signatures and backed by delivery promises of value-creating community members. The compatibility and plausibility of these promises is verified by a regulatory mechanism. The proposal is inspired by [cryptographic] and [local] currencies.
+The goal of *groupcash* is to make it easy and cheap for anybody to run their own complementary currency. For that it defines a set of **specifications** on which compatible **software systems** can be built which can be used for managing and trading in different kinds of independently run **currencies**.
 
-[cryptographic]: https://en.wikipedia.org/wiki/Cryptocurrency
-[local]: https://en.wikipedia.org/wiki/Local_currency
+The following figure illustrates this structure which is also the structure of this document.
 
+![structure](figures/structure.svg)
 
-## Design goals
 
-### Clear value concept
+## Currencies
 
-While currencies used to be commodity-backed (e.g. gold standard), this is not any more the case for most. Hence the value of these "political" currencies is mainly make-belief. It's derived from what people believe it's worth and how much they think it will be worth in the future. It also depends on how much they trust the bbanks and government that is guaranteeing the value. A goal of the proposed currency must be that each participant can easily understand and estimate the value of each currency unit.
+Complementary currencies are a great **tool to solve** many different kind of **problems**, so they come in different forms and shapes. Which problems there are and how they are solved with *groupcash*, you can read in the [manifesto](manifesto.md).
 
-### Low fluctuation
+How different **kind of currencies** solving different problems can be run with *groupcash* is described in the [use-cases](usecases.md) document.
 
-Fluctuating exchange rates of currencies cause it to be hoarded by investors hoping to make profit. A goal of the proposed currency should be to incentivise circulation and decrease fluctuation. This is compatible with the goal of clear value proposition.
+If a complementary currency can be successfully implemented and run in depends on the community but also on the software systems and specifications. An attempt to list the underlying assumptions with the goal of collecting knowledge about pitfalls and **challenges** can be found [here](challenges.md).
 
-### High velocity
+The commonality of all *groupcash* currencies is that they're **commodity-backed**, meaning that they are based on delivery promises of goods or services. Forgery and fraud is prevented by [**cryptographic**][cryptography] algorithms (i.e. **math + computers**) instead of coins, bills and banks - decreasing the cost of starting and running a secure currency.
 
-The currency should provide an incentive to keep circulation going, thus preventing hoarding which could lead to a shortage of tradable units and destabilize its value.
+![pillars](figures/pillars.svg)
 
-### Decentralization
+[cryptography]: https://blog.vrypan.net/2013/08/28/public-key-cryptography-for-non-geeks/
 
-The creation of conventional currencies lies in the hand of a single government body and private banks. Double-spending is avoided through counterfeit-proof tokens (cash) and accounts managed by a few banks. The proposed currency should use a community to collectively create spendable units and prohibit double-spending. The participants should also be able to transfer units independently if wished.
 
-### No transaction fees
+## Software Systems
 
-Transaction fees harm the economy since they decrease the practical size of transactions. The proposed currency should enable transaction to very low or no costs. The goal of decentralization supports this as well.
+While complementary could be and were run manually for many thousand years, software can make the task a lot easier and cheaper. And because of its cryptographic property, *groupcash* currencies require computers and software.
 
-### Built on trust
+The same property allows for a wide range of different architectures. Because no central database is needed, currencies can be run in a [peer-to-peer][p2p] network or in a [server/client] architecture, with either native clients or as a web application.
 
-While the main proposition of crypto-currencies like Bitcoin is that no trust is required between the participants in order to trade, this also creates purely profit-driven incentives to participate. In a completely unregulated market, this naturally leads to quasi-monopolies. The proposed currency should provide its users gains from trusting each other and make sure that the self-interest of its participants does not contradict the common interest of the community.
+Software systems implementing the *groupcash* specification can be found on the web (as soon as they exist) and are also collected in the [*groupcash* organization on github][github]
 
+[p2p]: https://en.wikipedia.org/wiki/Peer-to-peer
+[server/client]: https://en.wikipedia.org/wiki/Client%E2%80%93server_model
+[github]: https://github.com/groupcash
 
 
-## Implementation
+## Specifications
 
-### Useful commodities
+The core of *groupcash* is a set of specifications that facilitate interoperability between software systems with which currencies can be run. These specify a [**design**](specifications/design.md), based on digital signatures, the [**algorithms**](specifications/algorithms.md) to create and verify these signatures, [**protocols**](specifications/protocols.md) for trading between systems and [**formats**](specifications/formats.md) how currency units and other objects can be represented virtually and physically.
 
-The proposed currency is representative, i.e. directly backed by useful commodities. It's units are delivery promises made by value-creating entities. What counts as "useful" must be defined by the community but ideally it would be something with intrinsic value like food, energy or workforce as opposed to merely "rare" substances like gold. Since each unit represents a promise directly, users can decide themselves which commodities they find useful and which backers trust-worthy.
 
-### Regulation
+## Related projects
 
-To make sure that the promises comply with the above mentioned definition and also to limit the risk that the backer will not be able to fulfil their promises, a regulatory mechanism is required. This mechanism must make sure that a backer does not sell more promises than they are likely to be able to deliver within a given time frame. For example, a rule could be that a maximum of 10% of the yearly output can be promised. The regulation could either be performed by an organisation or by the community itself.
+While its approach and implementations are (hopefully) unique, *groupcash* is not the only project trying to make complementary currencies more approachable. If you know would like to add to this list or are interested in collaborating, please [contact us](http://groupcash.org/#contact).
 
-### Cryptographic signatures
-
-To enable de-centralization, public/private key pairs are used to sign contracts like promises and transactions. Public keys serve as pseudonyms and addresses of the participants. While spending units still relies on the validation of the backer, they cannot change your "balance" without the owners signature.
-
-### Fixed prices
-
-While units can be sold and bought on the open market, backers should guarantee a fixed price. For example $1 per unit. They should also guarantee to buy-back their promises although they may keep a margin.
-
-
-
-## Incentives
-
-For each type of user, an incentive must exist to participate in the currency. These incentives must not compromise the common goals described above.
-
-### Backer
-
-Value-creating entities become backers by making delivery promises. Some of them are probably never demanded so selling these promises is a source of capital for the backers which can be invested. Since they receive this loan by a large number of people, it can be compared to crowd-funding. Backers can also gain a margin when buying back their promises.
-
-A backer also has an incentive to prevent double-spending since that would increase the demandable deliveries without receiving compensation. This is done by "validating" a transference.
-
-### Regulator
-
-The regulator bears the costs of acquiring new backers, assuring their compatibility, determining the delivery promise equivalent to one unit and calculating the maximum number of units they may issue. This could be compensated by a fee per created units, decreasing the sell/buy margin of the backers. Another source of revenue could be to manage the accounts of the backers, either charging for this service or keeping the margins.
-
-### Merchant
-
-By accepting the proposed currency, merchants benefit from a faster, more secure and cheaper mean of payment. Because of the guaranteed buy-back by the backers, the only risk is the buy/sell margin and thus small and calculate-able. Merchants can also promote under-used assets by accepting part of the payment in the local currency.
-
-### Consumer
-
-Consumers benefit from a faster, cheaper way of payment as well. Because of the fixed prices, units can be bought with no loss. Units could also be sold at a discount.
-
-
-
-## Symbol
-
-The *groupcash* symbol is a bank note so show that its currencies can be traded like cash - offline and without depending on a central institution for each transaction. Instead of the king's or queen's face or some politician it bears a group of people in its center because each currency belongs to its community. The codes left and right symbolize its gryptographic and the binary nomination its digital nature.
-
-![Icon](https://cdn.rawgit.com/groupcash/core/df84167/symbol.svg)
-
-
-
-## Standards
-
-A extensible set of protocols and standards is needed to enable a community-driven development of tools for trading. There are three areas where standardization is needed.
-
-### Structure
-
-At the core of the system sits a set of algorithms to *issue* currency units, *transfer* them between participants and *confirm* transactions. The underlying data structures are described in the [design document](design.md).
-
-### Algorithms
-
-Each application needs to use the same cryptographic algorithms. These should be chosen from an extensible suite of algorithms.
-
-### Representation
-
-It should be possible to store currency units digitally as well as on an analogue medium, for example by printing them in a machine readable form. Different representations should be easily transformable.
-
-### Transport
-
-It needs to be possible to send units to users of the currency for transference and to backers for validation. This can happen directly through existing channels like email but there should also be standardized protocols to facilitate interoperability between different systems. One way of transport could be through a peer-to-peer network, another via a client-server protocol.
-
-
-
-## Assumptions
-
-There are several requirements for this system to work.
-
-### Available computers
-
-Since transactions rely of cryptographic signatures, participants require a computer to make transactions. For validating the transaction, a connection to the backer is needed. In order to use the currency of the go, both both assets need to be mobile.
-
-Computers can be avoided by printing *blank* transactions that can be claimed by anyone and therefore can be used like paper bills but increase the risk of fraud through double-spending.
-
-### Reliable signatures
-
-In order for the signatures to be reliable, the following is needed
-- a collision-free, secure hashing algorithms
-- a future-proof trapdoor function
-- a reliable source of randomness
-
-### Secure private keys
-
-The private keys of all participants must remain private. If a private key is stolen, the victim can lose all their unspent units.
-
-### Market acceptance
-
-The currency requires are sufficient number of units for trade and possibilities to spend them. This depends on the number of backers and their willingness to issue promises. It must also be accepted by merchants and consumers.
-
-### Enforceability of signatures
-
-The signed promises must be enforceable, meaning the proven owner of the promise must have a right to receive the promised delivery.
+- [OpenMoney](http://openmoney.org/) - "Open money is a means of exchange freely available to all. Any community, any association - indeed, any body - can have their own money."
+- [MetaCurrency Project](http://metacurrency.org/) - "The MetaCurrency Project is building the tools and technology platforms to open source the next economy."
+- [CommunityForge](http://communityforge.net/en) - "Community Forge is a non-profit organization that designs, develops and distributes tools around complementary currencies."
+- [Qoin](http://www.qoin.org/) - "Qoin implements, manages and supports community currencies around the world."
+- [RegioGeld](http://regionetzwerk.blogspot.de/) - Supporting local currencies in Germany
+- [The Social Trade Organisation](http://www.socialtrade.nl/) - "[STRO] is one of the few organisations in the world that developes alternatives for the monetary system."
+- [IRTA](http://www.irta.com/) - "IRTA is committed to promoting just and equitable standards of practice and operation within the Modern Trade and Barter and other Alternative Capital Systems Industry"
