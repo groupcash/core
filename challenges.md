@@ -1,8 +1,7 @@
-# Challenges and Assumptions for Groupcash Currencies
+# Challenges for Groupcash Currencies
 
-[work in progress]
 
-There are several requirements for this system to work.
+The goal of this document is to provide information about common challenges and pitfalls when setting up a currency with *groupcash*. So far it only contains a very incomplete list of identified assumptions.
 
 ### Available computers
 

@@ -1,6 +1,6 @@
 # Use-Cases for Groupcash Currencies
 
-[work in progress]
+The goal of this document is to collect ideas for different use-cases of *groupcash* currencies. So far it contains a description of incentives for a single use-case.
 
 ## Incentives
 
