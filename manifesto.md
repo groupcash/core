@@ -15,7 +15,7 @@ So what exactly are the problems with money? The answer to this question lies in
 
 ### Where does Money come from?
 
-It is a common misconception that money is created by the government or the central bank. In fact almost all **money is created by private banks** for profits when giving out credits. How is this possible? With a little trick called **fractional-reserve banking**. This allows a bank that has 10 coins gives out 100 coins of credit, *inventing* 90 coins on the way. While gold smiths in the ancient Rome were sentenced to death if caught promising more than they have, it is common practice nowadays almost everywhere in the world. So your money is not only **not backed by anything**, most if it doesn't even exist.
+It is a common misconception that money is created by the government or the central bank. In fact almost all **money is created by private banks** for profits when giving out credits. How is this possible? With a little trick called **fractional-reserve banking**. This allows a bank that has 10 coins gives out 100 coins of credit, *inventing* 90 coins on the way. While gold smiths in the ancient Rome were sentenced to death if caught promising more than they have, it is common practice nowadays almost everywhere in the world. So your money is not only **not backed by anything**, most if it doesn't even exist. It's an unstable system that collapses as soon as too many people ask for their money.
 
 And the bank doesn't lend the 100 coins out of good will. Every **credit costs interests**. If you get those 100 coins from the bank, you'll have to give back 110 coins. Where do these 10 coins come from? More debt. Because almost **all money is created through debt**. The result is that in order to pay the interest, there needs to be more money every year. This is achieved either through inflation or through "growth", meaning that more goods are traded and therefore there can be more money without becoming worth less. A result is that an economy based on interest-carrying debt is **forced to perpetually grow** to avoid inflation, which in turn means that in such a system, **a sustainable economy is impossible**, because the world is finite and can not support infinite growth.
 
@@ -43,7 +43,7 @@ And how does it move? Either *physically* by handing over cash or *virtually* by
 
 
 
-## A new Game
+## Let's play a new Game!
 
 One could think that these rules are universal. That this is just the way the world works and we have to accept this rigged game. But we don't.
 
@@ -51,10 +51,26 @@ We can create a new game with our own rules. We can create a currency that is **
 
 Such a currency would not try to replace the national currency but **complement** it. It can be used where conventional money does not reach or is not available. It would relief a single currency from having to fulfil contradictory roles.
 
-What we need is a **community currency** that we can shape and design to serve our own needs, that follows our own rules.
+What we need is **people money** that we can shape and design to serve our own needs, that follows our own rules.
 
 
 
-## How does that change the Rules?
+## How does that solve Anything?
 
-[proof that the solution satisfies the conditions]
+The described problems are not intrinsic to money itself but a consequence of the specific rules of our modern money. It is not surprising that a game designed by private banks is mostly benefiting those with money. But if they  are caused by bad design, then each problem can be alleviated simply by better design.
+
+So instead of using money that is not backed by anything and created with an accounting trick, we can design a currency to be **based on real value**. If each coin is backed by a delivery promise, then it has inherent value that is easy to understand and judge. These promises could be food, housing, electricity, work force or another currency. Such a currency **cannot lose its value** since it's bound to real things. And by limiting the promised amount to a reasonable proportion of what's actually available, such a currency **cannot collapse** as easily.
+
+By giving out **interest-free loans**, a community can be **free of profit-pressure** and pursue goals more important than growth, like **happiness, equality and sustainability**. In such a system, non-profit organisations can exist more easily and even for-profit companies feel less pressure to exploit the environment.
+
+Modern money is kept artificially scarce to protect its value. But a good medium of exchange needs to be abundantly available. By creating its own money, a community is free to **make money when its needed**. With their own money, people can transform their available assets, their skills and work force into economical power, **pulling themselves out of poverty**.
+
+Because a single currency cannot serve all of its three purposes equally well at the same time, complementary currencies can **fulfil specific roles**, relieving the it from having to serve many masters and thus **strengthen the national currency**. 
+
+A community currency is guaranteed to **stay within the community**. The "community" can be limited to whatever people care about. The currency can be designed to support organic agriculture, to help local welfare organisations or give a discount on local products. With more opportunities for doing business locally, people have **less reason to leave for the city**.
+
+Because the cost of duplicating digital goods is almost zero, many businesses give them away for free, depending on other sources of income like advertisement or selling user data. By **eliminating transaction costs**, creators of things like news articles and educational videos would be able to **create income with the actual content**, instead of having to sell banner spots. But not only on the internet would micro-payments make a whole new class of business models possible, creating a **new kind of economy** where really *everybody* can participate.
+
+## What's next?
+
+There are already many complementary currencies in the world. But while they either rely on costly printed bills or central databases, *groupcash* uses modern computer technology to make is easier, cheaper and safer for anyone to create their own currency **with their own rules**. Go to [**groupcash.org**](http://groupcash.org) to find more information about the project and how to get started with your own currency.
