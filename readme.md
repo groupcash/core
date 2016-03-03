@@ -49,9 +49,12 @@ While its approach and implementations are (hopefully) unique, *groupcash* is no
 - [MetaCurrency Project](http://metacurrency.org/) - "The MetaCurrency Project is building the tools and technology platforms to open source the next economy."
 - [OpenMoney](http://openmoney.org/) - "Open money is a means of exchange freely available to all. Any community, any association - indeed, any body - can have their own money."
 - [CommunityForge](http://communityforge.net/en) - "Community Forge is a non-profit organization that designs, develops and distributes tools around complementary currencies."
-- [Qoin](http://www.qoin.org/) - "Qoin implements, manages and supports community currencies around the world."
+
+## Resources
+
+- [Complementary Currency Resource Center](http://complementarycurrency.org/) - "We collaborate on the design, implementation, research and best practices in complementary currency systems."
+- [Complementary Currency Literature](http://cc-literature.de/)  - "This bibliography strives to reflect the variety of research about community currencies."
 - [RegioGeld](http://regionetzwerk.blogspot.de/) - Supporting local currencies in Germany
 - [The Social Trade Organisation](http://www.socialtrade.nl/) - "[STRO] is one of the few organisations in the world that developes alternatives for the monetary system."
 - [IRTA](http://www.irta.com/) - "IRTA is committed to promoting just and equitable standards of practice and operation within the Modern Trade and Barter and other Alternative Capital Systems Industry"
-- [Complementary Currency Resource Center](http://complementarycurrency.org/) - "We collaborate on the design, implementation, research and best practices in complementary currency systems."
-- [Complementary Currency Literature](http://cc-literature.de/)  - "This bibliography strives to reflect the variety of research about community currencies."
+- [Qoin](http://www.qoin.org/) - "Qoin implements, manages and supports community currencies around the world."
