@@ -1,6 +1,8 @@
 # Groupcash: A Commodity-Backed Cryptographic Complementary Currencies System
 
-The goal of *groupcash* is to make it easy and cheap for anybody to run their own complementary currency. For that it defines a set of **specifications** on which compatible **software systems** can be built which can be used for managing and trading in different kinds of independently run **currencies**.
+The goal of *groupcash* is to make it easier, cheaper and safer for anybody to run their own complementary currency.
+
+For that it defines a set of **specifications** on which compatible **software systems** can be built which can be used for managing and trading in different kinds of independently run **currencies**.
 
 The following figure illustrates this structure which is also the structure of this document.
 
