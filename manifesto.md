@@ -73,4 +73,4 @@ Because the cost of duplicating digital goods is almost zero, many businesses gi
 
 ## What's next?
 
-There are already many complementary currencies in the world. But while they either rely on costly printed bills or central databases, *groupcash* uses modern computer technology to make is easier, cheaper and safer for anyone to create their own currency **with their own rules**. Go to [**groupcash.org**](http://groupcash.org) to find more information about the project and how to get started with your own currency.
+There are already many complementary currencies in the world. But while they either rely on costly printed bills or central databases, *groupcash* uses modern computer technology to **make it easier, cheaper and safer for anyone to create their own currency** with their own rules. Go to [**groupcash.org**](http://groupcash.org) to find more information about the project and how to get started with your own currency.
