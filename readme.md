@@ -58,3 +58,7 @@ While its approach and implementations are (hopefully) unique, *groupcash* is no
 - [The Social Trade Organisation](http://www.socialtrade.nl/) - "[STRO] is one of the few organisations in the world that developes alternatives for the monetary system."
 - [IRTA](http://www.irta.com/) - "IRTA is committed to promoting just and equitable standards of practice and operation within the Modern Trade and Barter and other Alternative Capital Systems Industry"
 - [Qoin](http://www.qoin.org/) - "Qoin implements, manages and supports community currencies around the world."
+- [The Ecology of Money](http://www.feasta.org/documents/moneyecology/contents.htm) - by Richard Douthwaite
+- [People Money](http://www.lietaer.com/writings/books/people-money/) - by Margrit Kennedy, Bernard Lietaer, John Rogers
+- [List of Local Currencies](https://en.wikipedia.org/wiki/Local_currency#List_of_local_currencies) - Wikipedia
+- [Complementary Currency](https://en.wikipedia.org/wiki/Complementary_currency) - Wikipedia
