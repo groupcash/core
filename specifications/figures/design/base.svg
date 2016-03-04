@@ -109,9 +109,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="91.695504"
-     inkscape:cy="113.35331"
+     inkscape:zoom="2.322113"
+     inkscape:cx="131.72092"
+     inkscape:cy="114.9197"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -141,43 +141,50 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-175.30508,-238.45012)">
-    <text
-       xml:space="preserve"
-       style="font-size:16.25000000000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
-       x="334.65164"
-       y="298.70615"
-       id="text3012"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3014"
+    <g
+       id="g3061"
+       transform="translate(0,0.73006821)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3012"
+         y="315.95511"
          x="334.65164"
-         y="298.70615"
-         style="-inkscape-font-specification:Georgia;font-family:Georgia">Description</tspan></text>
-    <rect
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect3788"
-       width="93"
-       height="28"
-       x="331.65164"
-       y="279.70615" />
-    <text
-       xml:space="preserve"
-       style="font-size:16.25000000000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
-       x="335.15164"
-       y="341.71475"
-       id="text3016"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3018"
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+         xml:space="preserve"><tspan
+           style="font-family:Georgia;-inkscape-font-specification:Georgia"
+           y="315.95511"
+           x="334.65164"
+           id="tspan3014"
+           sodipodi:role="line">Description</tspan></text>
+      <rect
+         y="300.24268"
+         x="331.60431"
+         height="22.926947"
+         width="93.09465"
+         id="rect3788"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:0.90534681px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g3066">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3016"
+         y="346.20584"
          x="335.15164"
-         y="341.71475">Currency@</tspan></text>
-    <rect
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect3790"
-       width="93.5"
-       height="27"
-       x="331.15164"
-       y="322.71475" />
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+         xml:space="preserve"><tspan
+           y="346.20584"
+           x="335.15164"
+           id="tspan3018"
+           sodipodi:role="line">Currency@</tspan></text>
+      <rect
+         y="331.67139"
+         x="331.09378"
+         height="21.086725"
+         width="93.615715"
+         id="rect3790"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:0.88428301px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
     <path
        style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-dasharray:none"
        d="m 322.52399,245.80927 231.89488,0 0,174.79986 -136.01708,0 0.0683,-59.13555 -95.94614,-0.30044 z"
@@ -273,8 +280,8 @@
        id="path3907"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 424.16534,292.58773 7.71958,0 0,68.14142 55.39132,0"
+       style="fill:none;stroke:#000000;stroke-width:1.26862752;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 424.04966,312.2816 7.74788,0 0,48.56323 55.59438,0"
        id="path3917"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -387,7 +394,7 @@
        style="fill:none;stroke:#000000;stroke-width:1.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:9, 1.50000000000000000;stroke-dashoffset:0;marker-end:url(#Arrow1Mend-8)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-end:url(#Arrow1Mend-8)"
-       d="m 329.49743,337.30844 -48.73618,0"
+       d="m 329.49743,341.30844 -48.73618,0"
        id="path7192"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -415,9 +422,30 @@
        id="path4284"
        d="m 494.64588,359.16522 -2.45875,0 -0.73239,2.91215 2.4849,0 0.70624,-2.91215 z m -1.22937,-4.96109 -0.88934,3.61837 2.45875,0 0.89806,-3.61837 1.49966,0 -0.91549,3.61837 2.68545,0 0,1.34272 -3.02549,0 -0.71496,2.91215 2.73776,0 0,1.334 -3.06908,0 -0.89805,3.60965 -1.49967,0 0.91549,-3.60965 -2.46747,0 -0.90677,3.60965 -1.48223,0 0.88934,-3.60965 -2.69416,0 0,-1.334 3.0342,0 0.71496,-2.91215 -2.7552,0 0,-1.34272 3.09524,0 0.90677,-3.61837 1.48223,0 z" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 424.6793,336.98711 6.57007,0"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 424.6793,342.21475 6.57007,0"
        id="path3080"
        inkscape:connector-curvature="0" />
+    <g
+       id="g3056">
+      <text
+         xml:space="preserve"
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+         x="335.15164"
+         y="287.0455"
+         id="text3040"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3042"
+           x="335.15164"
+           y="287.0455">Issuer@</tspan></text>
+      <rect
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:0.86649847px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3044"
+         width="93.633499"
+         height="20.243225"
+         x="331.0849"
+         y="272.53607" />
+    </g>
   </g>
 </svg>
