@@ -18,7 +18,7 @@ The beginning of the chain is formed by a *Base* Transaction which is signed ind
 
 The Issuer signs the description of what the Coin is backed by, together with the address of the Currency, the address of the *Backer* and the *Value* of the Base in currency units. The structure of the *Authorization* and the Base is shown in the following figure.
 
-![Coin Base](http://cdn.rawgit.com/groupcash/core/b9321b5b/specifications/figures/design/base.svg)
+![Coin Base](http://cdn.rawgit.com/groupcash/core/8d084458/specifications/figures/design/base.svg)
 
 It is the Issuer's responsibility to make sure that the backing of the Base is legit and to determine its worth in the given currency. Since the signatures rely on hashes, the description must be unique per Backer and Issuer to avoid two Bases with the same hash.
 
