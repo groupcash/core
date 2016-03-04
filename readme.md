@@ -6,7 +6,7 @@ For that it defines a set of **specifications** on which compatible **software s
 
 The following figure illustrates this structure which is also the structure of this document.
 
-![structure](http://cdn.rawgit.com/groupcash/core/9449f1c/figures/structure.svg)
+![structure](http://cdn.rawgit.com/groupcash/core/94fd4e2b/figures/structure.svg)
 
 
 ## Currencies
@@ -19,7 +19,7 @@ If a complementary currency can be successfully implemented and run in depends o
 
 The commonality of all *groupcash* currencies is that they're **commodity-backed**, meaning that they are based on delivery promises of goods or services. Forgery and fraud is prevented by [**cryptographic**][cryptography] algorithms (i.e. **math + computers**) instead of coins, bills and banks - decreasing the cost of starting and running a secure currency.
 
-![pillars](http://cdn.rawgit.com/groupcash/core/9449f1c/figures/pillars.svg)
+![pillars](http://cdn.rawgit.com/groupcash/core/94fd4e2b/figures/pillars.svg)
 
 [cryptography]: https://blog.vrypan.net/2013/08/28/public-key-cryptography-for-non-geeks/
 
