@@ -8,19 +8,19 @@ The structures and their graphical representations are a adopted from the [bitco
 
 ## Transactions
 
-A *Coin* is a chain of *Transactions*, each transferring the ownership of the previous one to the public key of a new *Target* owner. This is done by signing the Target's public key together with the hash of the previous Transaction with the private key of the owner, as shown is the following figure.
+A *Coin* is a chain of *Transactions*, each transferring the ownership of the previous one to the public address of a new *Target* owner. This is done by signing the Target's public address together with the hash of the previous Transaction with the private key of the owner, as shown is the following figure.
 
 ![Transaction chain](http://cdn.rawgit.com/groupcash/core/9449f1c/specifications/figures/design/chain.svg)
 
 ## Genesis
 
-The beginning of the chain is formed by the *Base* Transaction which is signed indirectly by the regulatory entity with the private key of the *Currency*. The regulator of the Currency can authorize *Issuers* to distribute the task of issuing coins without having to share the Currency's private key.
+The beginning of the chain is formed by a *Base* Transaction which is signed indirectly by the regulatory entity with the private key of the *Currency*. The regulator of the Currency can authorize *Issuers* to distribute the task of issuing coins without having to share the Currency's private key.
 
-The Issuer signs the description of a delivery *Promise* that the Coin is backed by, together with the public key of the *Backer* and the *Value* of the Promise in currency units. The structure of the *Authorization*, the Promise and the Base is shown in the following figure.
+The Issuer signs the description of what the Coin is backed by, together with the address of the Currency, the address of the *Backer* and the *Value* of the Base in currency units. The structure of the *Authorization* and the Base is shown in the following figure.
 
-![Coin Base](http://cdn.rawgit.com/groupcash/core/9449f1c/specifications/figures/design/base.svg)
+![Coin Base](figures/design/base.svg)
 
-It is the Issuer's responsibility to make sure that the Promise is legit and to determine its worth in the given currency. Since the signatures rely on hashes, the Promise must be unique per Backer and Issuer to avoid two Bases with the same hash.
+It is the Issuer's responsibility to make sure that the backing of the Base is legit and to determine its worth in the given currency. Since the signatures rely on hashes, the description must be unique per Backer and Issuer to avoid two Bases with the same hash.
 
 ## Transferring Values
 
@@ -46,4 +46,4 @@ In order to preserve the uniqueness of each Transaction, the hash of the root of
 
 ![Confirmation Result](http://cdn.rawgit.com/groupcash/core/9449f1c/specifications/figures/design/confirmation.svg)
 
-In the example, the Backers **A** and **B** transfer `4` and `2` units to **D** respectively and the Backer **C** transfers `7` units to **E**. **D** and **E** transfer parts of their received units to **F** which in turn transfers `8` units to **G**. In order to confirm these transactions, **G** has to send the Coin to **A**, **B** and **C**. These make new Transferences to **G** with a value proportional to the value of their promises. Since **A**'s promise is worth `5` units, they transfer `5 * 8 / (5+7+8) = 2` units to **G**. The other Backers are doing likewise which results in three Coins with a combined value of `8`.
+In the example, the Backers **A** and **B** transfer `4` and `2` units to **D** respectively and the Backer **C** transfers `7` units to **E**. **D** and **E** transfer parts of their received units to **F** which in turn transfers `8` units to **G**. In order to confirm these transactions, **G** has to send the Coin to **A**, **B** and **C**. These make new Transferences to **G** with a value proportional to the value of their Bases. Since **A**'s Base has a value of `5` units, they transfer `5 * 8 / (5+7+8) = 2` units to **G**. The other Backers are doing likewise which results in three Coins with a combined value of `8`.
