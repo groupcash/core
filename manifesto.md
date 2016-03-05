@@ -2,7 +2,7 @@
 
 > *Pecunia non olet* - money does not stink.
 
-A saying that might have been true in the ancient Rome is now only that: a saying. Modern money stinks to high heaven. It is a game invented - quite recently - by the rich and mostly played by the rich. It's rules are designed to benefit the ones who have, neglecting and harming the ones who don't. This results is social inequality, unrest and sometimes economic crises.
+A saying that might have been true in the ancient Rome is now only that: a saying. Modern money stinks to high heaven. It is a game invented - quite recently - by the rich and mostly played by the rich. Its rules are designed to benefit the ones who have, neglecting and harming the ones who don't. This results in social inequality, unrest and sometimes economic crises.
 
 National currencies are that pervasive, that most people can't even imagine alternatives. But they exist. We can start our own game. One that benefits the community and the underprivileged. We can play by our own rules.
 
@@ -15,7 +15,7 @@ So what exactly are the problems with money? The answer to this question lies in
 
 ### Where does Money come from?
 
-It is a common misconception that money is created by the government or the central bank. In fact almost all **money is created by private banks** for profits when giving out credits. How is this possible? With a little trick called **fractional-reserve banking**. This allows a bank that has 10 coins gives out 100 coins of credit, *inventing* 90 coins on the way. While gold smiths in the ancient Rome were sentenced to death if caught promising more than they have, it is common practice nowadays almost everywhere in the world. So your money is not only **not backed by anything**, most if it doesn't even exist. It's an unstable system that collapses as soon as too many people ask for their money.
+It is a common misconception that money is created by the government or the central bank. In fact almost all **money is created by private banks** for profits when giving out credits. How is this possible? With a little trick called **fractional-reserve banking**. This allows a bank that has 10 coins gives out 100 coins of credit, *inventing* 90 coins on the way. While gold smiths in the ancient Rome were sentenced to death if caught promising more than they have, it is common practice nowadays almost everywhere in the world. So your money is not only **not backed by anything**, most of it doesn't even exist. It's an unstable system that collapses as soon as too many people ask for the money that they have "in the bank".
 
 And the bank doesn't lend the 100 coins out of good will. Every **credit costs interests**. If you get those 100 coins from the bank, you'll have to give back 110 coins. Where do these 10 coins come from? More debt. Because almost **all money is created through debt**. The result is that in order to pay the interest, there needs to be more money every year. This is achieved either through inflation or through "growth", meaning that more goods are traded and therefore there can be more money without becoming worth less. A result is that an economy based on interest-carrying debt is **forced to perpetually grow** to avoid inflation, which in turn means that in such a system, **a sustainable economy is impossible**, because the world is finite and can not support infinite growth.
 
@@ -32,7 +32,7 @@ Economy textbooks tell us that money serves three purposes:
 
 + **A store of value.** As it turns out, keeping money in the mattress is a lot more convenient than keeping chickens in the garden.
 
-The problem is that we only have one national currency for all three purposes. Why is that a problem? Because these **purposes are not compatible**. To be a good medium of exchange, a currency benefits from a negative interest rate (like inflation) to make people spend it faster. But this makes it a **poor unit of account** and a **poor store of value** because its value decreases over time. Using the same currency as a store of value means that less money is available the market (because its hidden in mattresses) which makes it a **poor medium of exchange**.
+The problem is that we only have one national currency for all three purposes. Why is that a problem? Because these **purposes are not compatible**. To be a good medium of exchange, a currency benefits from losing value over time (aka inflation) to make people spend it faster. But this makes it a **poor unit of account** and a **poor store of value** because its value decreases over time. Using the same currency as a store of value means that less money is available on the market (because its hidden in mattresses) which makes it a **poor medium of exchange**.
 
 
 ### Where does Money go?
@@ -57,7 +57,7 @@ What we need is **people money** that we can shape and design to serve our own n
 
 ## How does that solve Anything?
 
-The described problems are not intrinsic to money itself but a consequence of the specific rules of our modern money. It is not surprising that a game designed by private banks is mostly benefiting those with money. But if they  are caused by bad design, then each problem can be alleviated simply by better design.
+The described problems are not intrinsic to money itself but a consequence of the specific rules of our modern money. It is not surprising that a game designed by private banks is mostly benefiting those who have money. But if they  are caused by bad design, then each problem can be alleviated simply by better design.
 
 So instead of using money that is not backed by anything and created with an accounting trick, we can design a currency to be **based on real value**. If each coin is backed by a delivery promise, then it has inherent value that is easy to understand and judge. These promises could be food, housing, electricity, work force or another currency. Such a currency **cannot lose its value** since it's bound to real things. And by limiting the promised amount to a reasonable proportion of what's actually available, such a currency **cannot collapse** as easily.
 
