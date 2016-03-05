@@ -48,6 +48,7 @@ While its approach and implementations are (hopefully) unique, *groupcash* is no
 
 - [MetaCurrency Project](http://metacurrency.org/) - "The MetaCurrency Project is building the tools and technology platforms to open source the next economy."
 - [OpenMoney](http://openmoney.org/) - "Open money is a means of exchange freely available to all. Any community, any association - indeed, any body - can have their own money."
+- [New Currency Frontiers](http://newcurrencyfrontiers.com) "We invite you to explore innovative interpretations of money, economics and society which are resulting in a new way of thinking about our future."
 - [CommunityForge](http://communityforge.net/en) - "Community Forge is a non-profit organization that designs, develops and distributes tools around complementary currencies."
 
 ## Resources
