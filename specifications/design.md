@@ -52,4 +52,4 @@ In the example, the Backers **A** and **B** transfer `4` and `2` units to **D** 
 
 A Currency is defined by its *RuleBook*. It contains the "rules" of the currency, e.g. what Coins can be backed by, how their value is determined, how they are issued and so forth. An informal description of the rules, signed with the Currency's private key should be publicly available under the Currency's address. If rules are updated, the new RuleBook contains a hash of the previous one to establish the order.
 
-![Currency Rules](figures/design/rules.svg)
+![Currency Rules](http://cdn.rawgit.com/groupcash/core/a6018011/specifications/figures/design/rules.svg)
