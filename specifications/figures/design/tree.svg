@@ -14,7 +14,7 @@
    viewBox="0 0 554.72377 189.43564"
    id="svg5518"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="tree.svg">
   <defs
      id="defs5520" />
@@ -31,10 +31,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      fit-margin-top="5"
      fit-margin-left="5"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,7 @@
      transform="translate(-85.495246,-63.358675)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        x="111.9697"
        y="104.82844"
        id="text4140"
@@ -68,9 +68,9 @@
          id="tspan4142"
          x="111.9697"
          y="104.82844"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;">Base</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px">Base</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4148"
        width="56.671944"
        height="30.423885"
@@ -81,9 +81,9 @@
        id="text4161"
        y="104.82844"
        x="231.9697"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px"
          y="104.82844"
          x="231.9697"
          id="tspan4163"
@@ -94,7 +94,7 @@
        height="30.423885"
        width="45.934101"
        id="rect4165"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path4167"
@@ -105,9 +105,9 @@
        id="text4171"
        y="164.82843"
        x="111.9697"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px"
          y="164.82843"
          x="111.9697"
          id="tspan4173"
@@ -118,10 +118,10 @@
        height="30.423885"
        width="56.671944"
        id="rect4175"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        x="231.9697"
        y="164.82843"
        id="text4179"
@@ -130,9 +130,9 @@
          id="tspan4181"
          x="231.9697"
          y="164.82843"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;">Tx2</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px">Tx2</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4183"
        width="45.934101"
        height="30.423885"
@@ -145,7 +145,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        x="111.9697"
        y="224.82841"
        id="text4189"
@@ -154,9 +154,9 @@
          id="tspan4191"
          x="111.9697"
          y="224.82841"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;">Base</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px">Base</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4193"
        width="56.671944"
        height="30.423885"
@@ -167,9 +167,9 @@
        id="text4197"
        y="224.82845"
        x="231.9697"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px"
          y="224.82845"
          x="231.9697"
          id="tspan4199"
@@ -180,7 +180,7 @@
        height="30.423885"
        width="45.934101"
        id="rect4201"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path4203"
@@ -188,7 +188,7 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        x="351.9697"
        y="224.82845"
        id="text4234"
@@ -197,9 +197,9 @@
          id="tspan4236"
          x="351.9697"
          y="224.82845"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;">Tx5</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px">Tx5</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4238"
        width="45.934101"
        height="30.423885"
@@ -210,9 +210,9 @@
        id="text4242"
        y="134.82843"
        x="351.9697"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px"
          y="134.82843"
          x="351.9697"
          id="tspan4244"
@@ -223,15 +223,15 @@
        height="30.423885"
        width="45.934101"
        id="rect4246"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        sodipodi:linespacing="125%"
        id="text4250"
        y="178.82843"
        x="471.9697"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px"
          y="178.82843"
          x="471.9697"
          id="tspan4252"
@@ -242,7 +242,7 @@
        height="30.423885"
        width="45.934101"
        id="rect4254"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 269.45054,219.46709 73.37524,0"
@@ -275,7 +275,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="169.23068"
        y="92.010269"
        id="text4276"
@@ -286,7 +286,7 @@
          y="92.010269">A:5</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="168.03758"
        y="153.45461"
        id="text4280"
@@ -297,7 +297,7 @@
          y="153.45461">B:7</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="167.44104"
        y="213.10927"
        id="text4284"
@@ -311,7 +311,7 @@
        id="text4288"
        y="96.010269"
        x="277.23068"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="96.010269"
          x="277.23068"
@@ -322,7 +322,7 @@
        id="text4292"
        y="171.45461"
        x="276.03757"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="171.45461"
          x="276.03757"
@@ -333,7 +333,7 @@
        id="text4296"
        y="213.10927"
        x="275.44104"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="213.10927"
          x="275.44104"
@@ -341,7 +341,7 @@
          sodipodi:role="line">E:7</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="396.03757"
        y="129.45461"
        id="text4300"
@@ -352,7 +352,7 @@
          y="129.45461">F:5</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="395.44104"
        y="231.10927"
        id="text4304"
@@ -366,7 +366,7 @@
        id="text4308"
        y="165.84395"
        x="515.34686"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="165.84395"
          x="515.34686"
@@ -374,7 +374,7 @@
          sodipodi:role="line">G:8</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:Georgia, Georgia1, serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Georgia, Georgia1, serif';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:16.25000000000000000px;line-height:125%;font-family:Georgia;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Georgia;font-stretch:normal;font-variant:normal"
        x="577.9668"
        y="178.54901"
        id="text4260"
@@ -383,9 +383,9 @@
          id="tspan4262"
          x="577.9668"
          y="178.54901"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia, Georgia1, serif;-inkscape-font-specification:'Georgia, Georgia1, serif';font-size:16.25px;">Coin</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;font-size:16.25000000000000000px">Coin</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4264"
        width="52.496117"
        height="30.423885"
@@ -397,6 +397,6 @@
        height="30.423885"
        width="52.496117"
        id="rect4397"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79750001000000004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
