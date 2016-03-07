@@ -47,3 +47,9 @@ In order to preserve the uniqueness of each Transaction, the hash of the root of
 ![Confirmation Result](http://cdn.rawgit.com/groupcash/core/94fd4e2b/specifications/figures/design/confirmation.svg)
 
 In the example, the Backers **A** and **B** transfer `4` and `2` units to **D** respectively and the Backer **C** transfers `7` units to **E**. **D** and **E** transfer parts of their received units to **F** which in turn transfers `8` units to **G**. In order to confirm these transactions, **G** has to send the Coin to **A**, **B** and **C**. These make new Transferences to **G** with a value proportional to the value of their Bases. Since **A**'s Base has a value of `5` units, they transfer `5 * 8 / (5+7+8) = 2` units to **G**. The other Backers are doing likewise which results in three Coins with a combined value of `8`.
+
+## Rules
+
+A Currency is defined by its *RuleBook*. It contains the "rules" of the currency, e.g. what Coins can be backed by, how their value is determined, how they are issued and so forth. An informal description of the rules, signed with the Currency's private key should be publicly available under the Currency's address. If rules are updated, the new RuleBook contains a hash of the previous one to establish the order.
+
+![Currency Rules](figures/design/rules.svg)
