@@ -2,6 +2,15 @@
 
 The goal of this document is to collect ideas for different use-cases of *groupcash* currencies.
 
+* [Time Bank](#time-bank)
+ * [Care-taking](#care-taking-time-bank)
+ * [Community service Time Bank](#community-service-time-bank)
+* [Local exchange trading](#local-exchange-trading)
+* [On-line payment](#on-line-payment)
+* [Cash-less payment](#cash-less-payment)
+* [Tourist money](#tourist-money)
+* [Local discount](#local-discount)
+
 ## Time bank
 
 Trading services within a community, based on time as currency units (for example 1 hour = 1 coin)
