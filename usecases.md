@@ -4,7 +4,7 @@ The goal of this document is to collect ideas for different use-cases of *groupc
 
 * [Time Bank](#time-bank)
  * [Care-taking](#care-taking-time-bank)
- * [Community service Time Bank](#community-service-time-bank)
+ * [Community service](#community-service-time-bank)
 * [Local exchange trading](#local-exchange-trading)
 * [On-line payment](#on-line-payment)
 * [Cash-less payment](#cash-less-payment)
