@@ -63,3 +63,7 @@ While its approach and implementations are (hopefully) unique, *groupcash* is no
 - [People Money](http://www.lietaer.com/writings/books/people-money/) - by Margrit Kennedy, Bernard Lietaer, John Rogers
 - [List of Local Currencies](https://en.wikipedia.org/wiki/Local_currency#List_of_local_currencies) - Wikipedia
 - [Complementary Currency](https://en.wikipedia.org/wiki/Complementary_currency) - Wikipedia
+
+## License
+
+The *groupcash* system is released under the [MIT License](https://opensource.org/licenses/MIT)
